@@ -15,7 +15,7 @@ namespace BoysGameCenter
         public Main()
         {
             InitializeComponent();
-            //settingForm.ShowDialog();
+            settingForm.ShowDialog();
         }
         byte[,] time = { { 0, 0, 0, 0 }, { 0, 0, 0, 0 } };
         byte[] price = { 25, 25, 25, 25 };
@@ -24,7 +24,7 @@ namespace BoysGameCenter
         int[] totalTime = { 0, 0, 0, 0 };
         public sbyte[] devTimer = { 0, 0, 0 };
 
-        //SettingForm settingForm = new SettingForm();
+        SettingForm settingForm = new SettingForm();
         //PS4 ps4 = new PS4();
         //FinalText finalText = new FinalText();
         //AuxiliaryMenu auxiliaryMenu = new AuxiliaryMenu();
@@ -118,13 +118,17 @@ namespace BoysGameCenter
 
         private void Setting_button_Click(object sender, EventArgs e)
         {
-            //settingForm.ShowDialog();
-            MessageBox.Show("Setting");
+            settingForm.ShowDialog();
         }
 
         private void minHourTimer1_Click(object sender, EventArgs e)
         {
             //auxiliaryMenu.ShowDialog();
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
