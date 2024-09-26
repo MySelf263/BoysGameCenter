@@ -151,7 +151,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;saveLocationButton.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>6</value>
   </data>
   <data name="cancel_button.Font" type="System.Drawing.Font, System.Drawing">
     <value>Mj_Farah Medium, 12pt, style=Bold</value>
@@ -181,7 +181,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;cancel_button.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>7</value>
   </data>
   <data name="accept_button.Font" type="System.Drawing.Font, System.Drawing">
     <value>Mj_Farah Medium, 12pt, style=Bold</value>
@@ -211,7 +211,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;accept_button.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>8</value>
   </data>
   <data name="label1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -244,7 +244,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>9</value>
   </data>
   <data name="label5.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -277,61 +277,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="domainUpDown2.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 13.8pt</value>
-  </data>
-  <data name="domainUpDown2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>39, 215</value>
-  </data>
-  <data name="domainUpDown2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>113, 34</value>
-  </data>
-  <data name="domainUpDown2.TabIndex" type="System.Int32, mscorlib">
-    <value>18</value>
-  </data>
-  <data name="domainUpDown2.Text" xml:space="preserve">
-    <value>50</value>
-  </data>
-  <data name="&gt;&gt;domainUpDown2.Name" xml:space="preserve">
-    <value>domainUpDown2</value>
-  </data>
-  <data name="&gt;&gt;domainUpDown2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DomainUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;domainUpDown2.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;domainUpDown2.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="Ps5_No_domainUpDown.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 13.8pt</value>
-  </data>
-  <data name="Ps5_No_domainUpDown.Location" type="System.Drawing.Point, System.Drawing">
-    <value>392, 216</value>
-  </data>
-  <data name="Ps5_No_domainUpDown.Size" type="System.Drawing.Size, System.Drawing">
-    <value>113, 34</value>
-  </data>
-  <data name="Ps5_No_domainUpDown.TabIndex" type="System.Int32, mscorlib">
-    <value>16</value>
-  </data>
-  <data name="Ps5_No_domainUpDown.Text" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;Ps5_No_domainUpDown.Name" xml:space="preserve">
-    <value>Ps5_No_domainUpDown</value>
-  </data>
-  <data name="&gt;&gt;Ps5_No_domainUpDown.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DomainUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Ps5_No_domainUpDown.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;Ps5_No_domainUpDown.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>10</value>
   </data>
   <data name="Ps5_price_label.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -367,7 +313,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Ps5_price_label.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>11</value>
   </data>
   <data name="Ps5_No_label.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -379,7 +325,7 @@
     <value>NoControl</value>
   </data>
   <data name="Ps5_No_label.Location" type="System.Drawing.Point, System.Drawing">
-    <value>511, 218</value>
+    <value>511, 217</value>
   </data>
   <data name="Ps5_No_label.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>Yes</value>
@@ -403,114 +349,6 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Ps5_No_label.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="Ps5_ctrlr_domainUpDown.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 13.8pt</value>
-  </data>
-  <data name="Ps5_ctrlr_domainUpDown.Location" type="System.Drawing.Point, System.Drawing">
-    <value>223, 278</value>
-  </data>
-  <data name="Ps5_ctrlr_domainUpDown.Size" type="System.Drawing.Size, System.Drawing">
-    <value>113, 34</value>
-  </data>
-  <data name="Ps5_ctrlr_domainUpDown.TabIndex" type="System.Int32, mscorlib">
-    <value>19</value>
-  </data>
-  <data name="Ps5_ctrlr_domainUpDown.Text" xml:space="preserve">
-    <value>20</value>
-  </data>
-  <data name="&gt;&gt;Ps5_ctrlr_domainUpDown.Name" xml:space="preserve">
-    <value>Ps5_ctrlr_domainUpDown</value>
-  </data>
-  <data name="&gt;&gt;Ps5_ctrlr_domainUpDown.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DomainUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Ps5_ctrlr_domainUpDown.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;Ps5_ctrlr_domainUpDown.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="Ps4_ctrlr_domainUpDown.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 13.8pt</value>
-  </data>
-  <data name="Ps4_ctrlr_domainUpDown.Location" type="System.Drawing.Point, System.Drawing">
-    <value>223, 163</value>
-  </data>
-  <data name="Ps4_ctrlr_domainUpDown.Size" type="System.Drawing.Size, System.Drawing">
-    <value>113, 34</value>
-  </data>
-  <data name="Ps4_ctrlr_domainUpDown.TabIndex" type="System.Int32, mscorlib">
-    <value>20</value>
-  </data>
-  <data name="Ps4_ctrlr_domainUpDown.Text" xml:space="preserve">
-    <value>15</value>
-  </data>
-  <data name="&gt;&gt;Ps4_ctrlr_domainUpDown.Name" xml:space="preserve">
-    <value>Ps4_ctrlr_domainUpDown</value>
-  </data>
-  <data name="&gt;&gt;Ps4_ctrlr_domainUpDown.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DomainUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Ps4_ctrlr_domainUpDown.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;Ps4_ctrlr_domainUpDown.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="Ps4_Price_domainUpDown.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 13.8pt</value>
-  </data>
-  <data name="Ps4_Price_domainUpDown.Location" type="System.Drawing.Point, System.Drawing">
-    <value>39, 107</value>
-  </data>
-  <data name="Ps4_Price_domainUpDown.Size" type="System.Drawing.Size, System.Drawing">
-    <value>113, 34</value>
-  </data>
-  <data name="Ps4_Price_domainUpDown.TabIndex" type="System.Int32, mscorlib">
-    <value>21</value>
-  </data>
-  <data name="Ps4_Price_domainUpDown.Text" xml:space="preserve">
-    <value>30</value>
-  </data>
-  <data name="&gt;&gt;Ps4_Price_domainUpDown.Name" xml:space="preserve">
-    <value>Ps4_Price_domainUpDown</value>
-  </data>
-  <data name="&gt;&gt;Ps4_Price_domainUpDown.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DomainUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Ps4_Price_domainUpDown.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;Ps4_Price_domainUpDown.ZOrder" xml:space="preserve">
-    <value>11</value>
-  </data>
-  <data name="Ps4_No_domainUpDown.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 13.8pt</value>
-  </data>
-  <data name="Ps4_No_domainUpDown.Location" type="System.Drawing.Point, System.Drawing">
-    <value>392, 107</value>
-  </data>
-  <data name="Ps4_No_domainUpDown.Size" type="System.Drawing.Size, System.Drawing">
-    <value>113, 34</value>
-  </data>
-  <data name="Ps4_No_domainUpDown.TabIndex" type="System.Int32, mscorlib">
-    <value>17</value>
-  </data>
-  <data name="Ps4_No_domainUpDown.Text" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;Ps4_No_domainUpDown.Name" xml:space="preserve">
-    <value>Ps4_No_domainUpDown</value>
-  </data>
-  <data name="&gt;&gt;Ps4_No_domainUpDown.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DomainUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Ps4_No_domainUpDown.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;Ps4_No_domainUpDown.ZOrder" xml:space="preserve">
     <value>12</value>
   </data>
   <data name="Ps5_ctrlr_label.AutoSize" type="System.Boolean, mscorlib">
@@ -656,6 +494,150 @@
   </data>
   <data name="&gt;&gt;Ps4_No_label.ZOrder" xml:space="preserve">
     <value>16</value>
+  </data>
+  <data name="Ps4_Price_domainUpDown.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13.8pt</value>
+  </data>
+  <data name="Ps4_Price_domainUpDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>39, 107</value>
+  </data>
+  <data name="Ps4_Price_domainUpDown.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 34</value>
+  </data>
+  <data name="Ps4_Price_domainUpDown.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;Ps4_Price_domainUpDown.Name" xml:space="preserve">
+    <value>Ps4_Price_domainUpDown</value>
+  </data>
+  <data name="&gt;&gt;Ps4_Price_domainUpDown.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Ps4_Price_domainUpDown.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Ps4_Price_domainUpDown.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="Ps4_No_domainUpDown.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13.8pt</value>
+  </data>
+  <data name="Ps4_No_domainUpDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>392, 105</value>
+  </data>
+  <data name="Ps4_No_domainUpDown.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 34</value>
+  </data>
+  <data name="Ps4_No_domainUpDown.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;Ps4_No_domainUpDown.Name" xml:space="preserve">
+    <value>Ps4_No_domainUpDown</value>
+  </data>
+  <data name="&gt;&gt;Ps4_No_domainUpDown.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Ps4_No_domainUpDown.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Ps4_No_domainUpDown.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Ps4_ctrlr_domainUpDown.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13.8pt</value>
+  </data>
+  <data name="Ps4_ctrlr_domainUpDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>223, 163</value>
+  </data>
+  <data name="Ps4_ctrlr_domainUpDown.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 34</value>
+  </data>
+  <data name="Ps4_ctrlr_domainUpDown.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;Ps4_ctrlr_domainUpDown.Name" xml:space="preserve">
+    <value>Ps4_ctrlr_domainUpDown</value>
+  </data>
+  <data name="&gt;&gt;Ps4_ctrlr_domainUpDown.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Ps4_ctrlr_domainUpDown.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Ps4_ctrlr_domainUpDown.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Ps5_No_domainUpDown.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13.8pt</value>
+  </data>
+  <data name="Ps5_No_domainUpDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>392, 215</value>
+  </data>
+  <data name="Ps5_No_domainUpDown.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 34</value>
+  </data>
+  <data name="Ps5_No_domainUpDown.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;Ps5_No_domainUpDown.Name" xml:space="preserve">
+    <value>Ps5_No_domainUpDown</value>
+  </data>
+  <data name="&gt;&gt;Ps5_No_domainUpDown.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Ps5_No_domainUpDown.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Ps5_No_domainUpDown.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Ps5_Price_domainUpDown.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13.8pt</value>
+  </data>
+  <data name="Ps5_Price_domainUpDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>39, 215</value>
+  </data>
+  <data name="Ps5_Price_domainUpDown.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 34</value>
+  </data>
+  <data name="Ps5_Price_domainUpDown.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;Ps5_Price_domainUpDown.Name" xml:space="preserve">
+    <value>Ps5_Price_domainUpDown</value>
+  </data>
+  <data name="&gt;&gt;Ps5_Price_domainUpDown.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Ps5_Price_domainUpDown.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Ps5_Price_domainUpDown.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="Ps5_ctrlr_domainUpDown.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13.8pt</value>
+  </data>
+  <data name="Ps5_ctrlr_domainUpDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>223, 278</value>
+  </data>
+  <data name="Ps5_ctrlr_domainUpDown.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 34</value>
+  </data>
+  <data name="Ps5_ctrlr_domainUpDown.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;Ps5_ctrlr_domainUpDown.Name" xml:space="preserve">
+    <value>Ps5_ctrlr_domainUpDown</value>
+  </data>
+  <data name="&gt;&gt;Ps5_ctrlr_domainUpDown.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Ps5_ctrlr_domainUpDown.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Ps5_ctrlr_domainUpDown.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>

@@ -17,14 +17,18 @@ namespace BoysGameCenter
             InitializeComponent();
         }
 
-        //PS4 ps4 = new PS4();
+        Console ps4 = new Console();
         //FinalText finalText = new FinalText();
         bool firstRun = true;
         string path = null;
 
         private void accept_button_Click(object sender, EventArgs e)
         {
-            //ps4.priceSetter(byte.Parse(Ps4_Price_domainUpDown.Text));
+            ps4.priceSetter(byte.Parse(Ps4_Price_domainUpDown.Text));
+
+
+
+
             if (/*finalText*/this.path == null)
             {
                 MessageBox.Show("مسیر ذخیره سازی وارد نشده است");
@@ -59,7 +63,6 @@ namespace BoysGameCenter
         public void pathSetter(string path)
         {
             //finalText.path = folderBrowserDialog.SelectedPath + @"\";
-            MessageBox.Show(path);
             this.path = path;
         }
 

@@ -35,18 +35,24 @@
             this.accept_button = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.domainUpDown2 = new System.Windows.Forms.DomainUpDown();
-            this.Ps5_No_domainUpDown = new System.Windows.Forms.DomainUpDown();
             this.Ps5_price_label = new System.Windows.Forms.Label();
             this.Ps5_No_label = new System.Windows.Forms.Label();
-            this.Ps5_ctrlr_domainUpDown = new System.Windows.Forms.DomainUpDown();
-            this.Ps4_ctrlr_domainUpDown = new System.Windows.Forms.DomainUpDown();
-            this.Ps4_Price_domainUpDown = new System.Windows.Forms.DomainUpDown();
-            this.Ps4_No_domainUpDown = new System.Windows.Forms.DomainUpDown();
             this.Ps5_ctrlr_label = new System.Windows.Forms.Label();
             this.Ps4_ctrlr_label = new System.Windows.Forms.Label();
             this.Ps4_price_label = new System.Windows.Forms.Label();
             this.Ps4_No_label = new System.Windows.Forms.Label();
+            this.Ps4_Price_domainUpDown = new System.Windows.Forms.NumericUpDown();
+            this.Ps4_No_domainUpDown = new System.Windows.Forms.NumericUpDown();
+            this.Ps4_ctrlr_domainUpDown = new System.Windows.Forms.NumericUpDown();
+            this.Ps5_No_domainUpDown = new System.Windows.Forms.NumericUpDown();
+            this.Ps5_Price_domainUpDown = new System.Windows.Forms.NumericUpDown();
+            this.Ps5_ctrlr_domainUpDown = new System.Windows.Forms.NumericUpDown();
+            ((System.ComponentModel.ISupportInitialize)(this.Ps4_Price_domainUpDown)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Ps4_No_domainUpDown)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Ps4_ctrlr_domainUpDown)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Ps5_No_domainUpDown)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Ps5_Price_domainUpDown)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Ps5_ctrlr_domainUpDown)).BeginInit();
             this.SuspendLayout();
             // 
             // saveLocationButton
@@ -91,18 +97,6 @@
             this.label5.ForeColor = System.Drawing.Color.DarkRed;
             this.label5.Name = "label5";
             // 
-            // domainUpDown2
-            // 
-            resources.ApplyResources(this.domainUpDown2, "domainUpDown2");
-            this.domainUpDown2.Name = "domainUpDown2";
-            this.domainUpDown2.ReadOnly = true;
-            // 
-            // Ps5_No_domainUpDown
-            // 
-            resources.ApplyResources(this.Ps5_No_domainUpDown, "Ps5_No_domainUpDown");
-            this.Ps5_No_domainUpDown.Name = "Ps5_No_domainUpDown";
-            this.Ps5_No_domainUpDown.ReadOnly = true;
-            // 
             // Ps5_price_label
             // 
             resources.ApplyResources(this.Ps5_price_label, "Ps5_price_label");
@@ -114,30 +108,6 @@
             resources.ApplyResources(this.Ps5_No_label, "Ps5_No_label");
             this.Ps5_No_label.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.Ps5_No_label.Name = "Ps5_No_label";
-            // 
-            // Ps5_ctrlr_domainUpDown
-            // 
-            resources.ApplyResources(this.Ps5_ctrlr_domainUpDown, "Ps5_ctrlr_domainUpDown");
-            this.Ps5_ctrlr_domainUpDown.Name = "Ps5_ctrlr_domainUpDown";
-            this.Ps5_ctrlr_domainUpDown.ReadOnly = true;
-            // 
-            // Ps4_ctrlr_domainUpDown
-            // 
-            resources.ApplyResources(this.Ps4_ctrlr_domainUpDown, "Ps4_ctrlr_domainUpDown");
-            this.Ps4_ctrlr_domainUpDown.Name = "Ps4_ctrlr_domainUpDown";
-            this.Ps4_ctrlr_domainUpDown.ReadOnly = true;
-            // 
-            // Ps4_Price_domainUpDown
-            // 
-            resources.ApplyResources(this.Ps4_Price_domainUpDown, "Ps4_Price_domainUpDown");
-            this.Ps4_Price_domainUpDown.Name = "Ps4_Price_domainUpDown";
-            this.Ps4_Price_domainUpDown.ReadOnly = true;
-            // 
-            // Ps4_No_domainUpDown
-            // 
-            resources.ApplyResources(this.Ps4_No_domainUpDown, "Ps4_No_domainUpDown");
-            this.Ps4_No_domainUpDown.Name = "Ps4_No_domainUpDown";
-            this.Ps4_No_domainUpDown.ReadOnly = true;
             // 
             // Ps5_ctrlr_label
             // 
@@ -163,31 +133,114 @@
             this.Ps4_No_label.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.Ps4_No_label.Name = "Ps4_No_label";
             // 
+            // Ps4_Price_domainUpDown
+            // 
+            resources.ApplyResources(this.Ps4_Price_domainUpDown, "Ps4_Price_domainUpDown");
+            this.Ps4_Price_domainUpDown.Increment = new decimal(new int[] {
+            5,
+            0,
+            0,
+            0});
+            this.Ps4_Price_domainUpDown.Name = "Ps4_Price_domainUpDown";
+            this.Ps4_Price_domainUpDown.Value = new decimal(new int[] {
+            30,
+            0,
+            0,
+            0});
+            // 
+            // Ps4_No_domainUpDown
+            // 
+            resources.ApplyResources(this.Ps4_No_domainUpDown, "Ps4_No_domainUpDown");
+            this.Ps4_No_domainUpDown.Maximum = new decimal(new int[] {
+            5,
+            0,
+            0,
+            0});
+            this.Ps4_No_domainUpDown.Name = "Ps4_No_domainUpDown";
+            this.Ps4_No_domainUpDown.Value = new decimal(new int[] {
+            4,
+            0,
+            0,
+            0});
+            // 
+            // Ps4_ctrlr_domainUpDown
+            // 
+            resources.ApplyResources(this.Ps4_ctrlr_domainUpDown, "Ps4_ctrlr_domainUpDown");
+            this.Ps4_ctrlr_domainUpDown.Name = "Ps4_ctrlr_domainUpDown";
+            this.Ps4_ctrlr_domainUpDown.Value = new decimal(new int[] {
+            15,
+            0,
+            0,
+            0});
+            // 
+            // Ps5_No_domainUpDown
+            // 
+            resources.ApplyResources(this.Ps5_No_domainUpDown, "Ps5_No_domainUpDown");
+            this.Ps5_No_domainUpDown.Maximum = new decimal(new int[] {
+            5,
+            0,
+            0,
+            0});
+            this.Ps5_No_domainUpDown.Name = "Ps5_No_domainUpDown";
+            // 
+            // Ps5_Price_domainUpDown
+            // 
+            resources.ApplyResources(this.Ps5_Price_domainUpDown, "Ps5_Price_domainUpDown");
+            this.Ps5_Price_domainUpDown.Increment = new decimal(new int[] {
+            5,
+            0,
+            0,
+            0});
+            this.Ps5_Price_domainUpDown.Name = "Ps5_Price_domainUpDown";
+            this.Ps5_Price_domainUpDown.Value = new decimal(new int[] {
+            60,
+            0,
+            0,
+            0});
+            // 
+            // Ps5_ctrlr_domainUpDown
+            // 
+            resources.ApplyResources(this.Ps5_ctrlr_domainUpDown, "Ps5_ctrlr_domainUpDown");
+            this.Ps5_ctrlr_domainUpDown.Name = "Ps5_ctrlr_domainUpDown";
+            this.Ps5_ctrlr_domainUpDown.Value = new decimal(new int[] {
+            30,
+            0,
+            0,
+            0});
+            // 
             // SettingForm
             // 
+            this.AcceptButton = this.accept_button;
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.CancelButton = this.cancel_button;
             this.ControlBox = false;
+            this.Controls.Add(this.Ps5_ctrlr_domainUpDown);
+            this.Controls.Add(this.Ps4_ctrlr_domainUpDown);
+            this.Controls.Add(this.Ps5_No_domainUpDown);
+            this.Controls.Add(this.Ps4_No_domainUpDown);
+            this.Controls.Add(this.Ps5_Price_domainUpDown);
+            this.Controls.Add(this.Ps4_Price_domainUpDown);
             this.Controls.Add(this.saveLocationButton);
             this.Controls.Add(this.cancel_button);
             this.Controls.Add(this.accept_button);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.domainUpDown2);
-            this.Controls.Add(this.Ps5_No_domainUpDown);
             this.Controls.Add(this.Ps5_price_label);
             this.Controls.Add(this.Ps5_No_label);
-            this.Controls.Add(this.Ps5_ctrlr_domainUpDown);
-            this.Controls.Add(this.Ps4_ctrlr_domainUpDown);
-            this.Controls.Add(this.Ps4_Price_domainUpDown);
-            this.Controls.Add(this.Ps4_No_domainUpDown);
             this.Controls.Add(this.Ps5_ctrlr_label);
             this.Controls.Add(this.Ps4_ctrlr_label);
             this.Controls.Add(this.Ps4_price_label);
             this.Controls.Add(this.Ps4_No_label);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Name = "SettingForm";
+            ((System.ComponentModel.ISupportInitialize)(this.Ps4_Price_domainUpDown)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Ps4_No_domainUpDown)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Ps4_ctrlr_domainUpDown)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Ps5_No_domainUpDown)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Ps5_Price_domainUpDown)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Ps5_ctrlr_domainUpDown)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -201,17 +254,17 @@
         private System.Windows.Forms.Button accept_button;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.DomainUpDown domainUpDown2;
-        private System.Windows.Forms.DomainUpDown Ps5_No_domainUpDown;
         private System.Windows.Forms.Label Ps5_price_label;
         private System.Windows.Forms.Label Ps5_No_label;
-        private System.Windows.Forms.DomainUpDown Ps5_ctrlr_domainUpDown;
-        private System.Windows.Forms.DomainUpDown Ps4_ctrlr_domainUpDown;
-        private System.Windows.Forms.DomainUpDown Ps4_Price_domainUpDown;
-        private System.Windows.Forms.DomainUpDown Ps4_No_domainUpDown;
         private System.Windows.Forms.Label Ps5_ctrlr_label;
         private System.Windows.Forms.Label Ps4_ctrlr_label;
         private System.Windows.Forms.Label Ps4_price_label;
         private System.Windows.Forms.Label Ps4_No_label;
+        private System.Windows.Forms.NumericUpDown Ps4_Price_domainUpDown;
+        private System.Windows.Forms.NumericUpDown Ps4_No_domainUpDown;
+        private System.Windows.Forms.NumericUpDown Ps4_ctrlr_domainUpDown;
+        private System.Windows.Forms.NumericUpDown Ps5_No_domainUpDown;
+        private System.Windows.Forms.NumericUpDown Ps5_Price_domainUpDown;
+        private System.Windows.Forms.NumericUpDown Ps5_ctrlr_domainUpDown;
     }
 }
