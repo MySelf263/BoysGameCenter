@@ -24,8 +24,9 @@ namespace BoysGameCenter
 
         private void accept_button_Click(object sender, EventArgs e)
         {
-            ps4.priceSetter(byte.Parse(Ps4_Price_domainUpDown.Text));
-
+            //Ps4_No_domainUpDown
+            ps4.priceSetter((byte)Ps4_Price_domainUpDown.Value);
+            ps4.ACPriceSetter((byte)Ps4_ctrlr_domainUpDown.Value);
 
 
 

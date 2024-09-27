@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main));
             this.Game_Center_label = new System.Windows.Forms.Label();
             this.secondsTimer6 = new System.Windows.Forms.Label();
             this.minHourTimer6 = new System.Windows.Forms.Label();
@@ -123,7 +124,7 @@
             this.PS5_1_button.TabIndex = 12;
             this.PS5_1_button.Text = "PS5_1";
             this.PS5_1_button.UseVisualStyleBackColor = false;
-            this.PS5_1_button.Click += new System.EventHandler(this.button_Click);
+            this.PS5_1_button.Click += new System.EventHandler(this.PS5_1_button_Click);
             // 
             // comboBox6
             // 
@@ -131,14 +132,14 @@
             this.comboBox6.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox6.Items.AddRange(new object[] {
-            "2 controlers",
+            "1or2 controler(s)",
             "3 contlorers",
             "4 contlorers"});
             this.comboBox6.Location = new System.Drawing.Point(27, 395);
             this.comboBox6.Name = "comboBox6";
             this.comboBox6.Size = new System.Drawing.Size(121, 26);
             this.comboBox6.TabIndex = 13;
-            this.comboBox6.Click += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+
             // 
             // minHourTimer7
             // 
@@ -173,7 +174,7 @@
             this.PS5_2_button.TabIndex = 12;
             this.PS5_2_button.Text = "PS5_2";
             this.PS5_2_button.UseVisualStyleBackColor = false;
-            this.PS5_2_button.Click += new System.EventHandler(this.button_Click);
+            this.PS5_2_button.Click += new System.EventHandler(this.PS5_2_button_Click);
             // 
             // comboBox7
             // 
@@ -181,14 +182,13 @@
             this.comboBox7.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox7.Items.AddRange(new object[] {
-            "2 controlers",
+            "1or2 controler(s)",
             "3 contlorers",
             "4 contlorers"});
             this.comboBox7.Location = new System.Drawing.Point(171, 395);
             this.comboBox7.Name = "comboBox7";
             this.comboBox7.Size = new System.Drawing.Size(121, 26);
             this.comboBox7.TabIndex = 13;
-            this.comboBox7.Click += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // minHourTimer8
             // 
@@ -222,7 +222,7 @@
             this.PS5_3_button.TabIndex = 12;
             this.PS5_3_button.Text = "PS5_3";
             this.PS5_3_button.UseVisualStyleBackColor = false;
-            this.PS5_3_button.Click += new System.EventHandler(this.button_Click);
+            this.PS5_3_button.Click += new System.EventHandler(this.PS5_3_button_Click);
             // 
             // comboBox8
             // 
@@ -230,14 +230,13 @@
             this.comboBox8.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox8.Items.AddRange(new object[] {
-            "2 controlers",
+            "1or2 controler(s)",
             "3 contlorers",
             "4 contlorers"});
             this.comboBox8.Location = new System.Drawing.Point(317, 395);
             this.comboBox8.Name = "comboBox8";
             this.comboBox8.Size = new System.Drawing.Size(121, 26);
             this.comboBox8.TabIndex = 13;
-            this.comboBox8.Click += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // minHourTimer9
             // 
@@ -271,7 +270,7 @@
             this.PS5_4_button.TabIndex = 12;
             this.PS5_4_button.Text = "PS5_4";
             this.PS5_4_button.UseVisualStyleBackColor = false;
-            this.PS5_4_button.Click += new System.EventHandler(this.button_Click);
+            this.PS5_4_button.Click += new System.EventHandler(this.PS5_4_button_Click);
             // 
             // comboBox9
             // 
@@ -279,14 +278,13 @@
             this.comboBox9.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox9.Items.AddRange(new object[] {
-            "2 controlers",
+            "1or2 controler(s)",
             "3 contlorers",
             "4 contlorers"});
             this.comboBox9.Location = new System.Drawing.Point(463, 395);
             this.comboBox9.Name = "comboBox9";
             this.comboBox9.Size = new System.Drawing.Size(121, 26);
             this.comboBox9.TabIndex = 13;
-            this.comboBox9.Click += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // minHourTimer10
             // 
@@ -320,7 +318,7 @@
             this.PS5_5_button.TabIndex = 12;
             this.PS5_5_button.Text = "PS5_5";
             this.PS5_5_button.UseVisualStyleBackColor = false;
-            this.PS5_5_button.Click += new System.EventHandler(this.button_Click);
+            this.PS5_5_button.Click += new System.EventHandler(this.PS5_5_button_Click);
             // 
             // comboBox10
             // 
@@ -328,14 +326,13 @@
             this.comboBox10.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox10.Items.AddRange(new object[] {
-            "2 controlers",
+            "1or2 controler(s)",
             "3 contlorers",
             "4 contlorers"});
             this.comboBox10.Location = new System.Drawing.Point(613, 395);
             this.comboBox10.Name = "comboBox10";
             this.comboBox10.Size = new System.Drawing.Size(121, 26);
             this.comboBox10.TabIndex = 13;
-            this.comboBox10.Click += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // minHourTimer1
             // 
@@ -380,7 +377,7 @@
             this.PS4_1_button.TabIndex = 12;
             this.PS4_1_button.Text = "PS4_1";
             this.PS4_1_button.UseVisualStyleBackColor = false;
-            this.PS4_1_button.Click += new System.EventHandler(this.button_Click);
+            this.PS4_1_button.Click += new System.EventHandler(this.PS4_1_button_Click);
             // 
             // minHourTimer3
             // 
@@ -425,7 +422,7 @@
             this.PS4_2_button.TabIndex = 12;
             this.PS4_2_button.Text = "PS4_2";
             this.PS4_2_button.UseVisualStyleBackColor = false;
-            this.PS4_2_button.Click += new System.EventHandler(this.button_Click);
+            this.PS4_2_button.Click += new System.EventHandler(this.PS4_2_button_Click);
             // 
             // minHourTimer5
             // 
@@ -459,7 +456,7 @@
             this.PS4_3_button.TabIndex = 12;
             this.PS4_3_button.Text = "PS4_3";
             this.PS4_3_button.UseVisualStyleBackColor = false;
-            this.PS4_3_button.Click += new System.EventHandler(this.button_Click);
+            this.PS4_3_button.Click += new System.EventHandler(this.PS4_3_button_Click);
             // 
             // secondsTimer4
             // 
@@ -482,7 +479,7 @@
             this.PS4_4_button.TabIndex = 12;
             this.PS4_4_button.Text = "PS4_4";
             this.PS4_4_button.UseVisualStyleBackColor = false;
-            this.PS4_4_button.Click += new System.EventHandler(this.button_Click);
+            this.PS4_4_button.Click += new System.EventHandler(this.PS4_4_button_Click);
             // 
             // secondsTimer5
             // 
@@ -505,7 +502,7 @@
             this.PS4_5_button.TabIndex = 12;
             this.PS4_5_button.Text = "PS4_5";
             this.PS4_5_button.UseVisualStyleBackColor = false;
-            this.PS4_5_button.Click += new System.EventHandler(this.button_Click);
+            this.PS4_5_button.Click += new System.EventHandler(this.PS4_5_button_Click);
             // 
             // comboBox1
             // 
@@ -513,14 +510,13 @@
             this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox1.Items.AddRange(new object[] {
-            "2 controlers",
+            "1or2 controler(s)",
             "3 contlorers",
             "4 contlorers"});
             this.comboBox1.Location = new System.Drawing.Point(27, 219);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(121, 26);
             this.comboBox1.TabIndex = 13;
-            this.comboBox1.Click += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // comboBox2
             // 
@@ -528,14 +524,13 @@
             this.comboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox2.Items.AddRange(new object[] {
-            "2 controlers",
+            "1or2 controler(s)",
             "3 contlorers",
             "4 contlorers"});
             this.comboBox2.Location = new System.Drawing.Point(171, 219);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(121, 26);
             this.comboBox2.TabIndex = 13;
-            this.comboBox2.Click += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // comboBox3
             // 
@@ -543,14 +538,13 @@
             this.comboBox3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox3.Items.AddRange(new object[] {
-            "2 controlers",
+            "1or2 controler(s)",
             "3 contlorers",
             "4 contlorers"});
             this.comboBox3.Location = new System.Drawing.Point(317, 219);
             this.comboBox3.Name = "comboBox3";
             this.comboBox3.Size = new System.Drawing.Size(121, 26);
             this.comboBox3.TabIndex = 13;
-            this.comboBox3.Click += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // comboBox4
             // 
@@ -558,14 +552,13 @@
             this.comboBox4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox4.Items.AddRange(new object[] {
-            "2 controlers",
+            "1or2 controler(s)",
             "3 contlorers",
             "4 contlorers"});
             this.comboBox4.Location = new System.Drawing.Point(463, 219);
             this.comboBox4.Name = "comboBox4";
             this.comboBox4.Size = new System.Drawing.Size(121, 26);
             this.comboBox4.TabIndex = 13;
-            this.comboBox4.Click += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // comboBox5
             // 
@@ -573,14 +566,13 @@
             this.comboBox5.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox5.Items.AddRange(new object[] {
-            "2 controlers",
+            "1or2 controler(s)",
             "3 contlorers",
             "4 contlorers"});
             this.comboBox5.Location = new System.Drawing.Point(614, 219);
             this.comboBox5.Name = "comboBox5";
             this.comboBox5.Size = new System.Drawing.Size(121, 26);
             this.comboBox5.TabIndex = 13;
-            this.comboBox5.Click += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // Close_button
             // 
@@ -669,6 +661,7 @@
             this.Controls.Add(this.minHourTimer6);
             this.Controls.Add(this.Game_Center_label);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Main";
             this.Text = "GameCenter";
             this.ResumeLayout(false);

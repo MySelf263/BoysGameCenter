@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace BoysGameCenter
 {
@@ -19,6 +20,7 @@ namespace BoysGameCenter
         private int[] totalTime = { 0, 0, 0 };
         private bool enabled = false;
         private byte increaseTime = 0;
+        public sbyte[] devTimer = { 0, 0, 0 };
         //FinalText finalText = new FinalText();
         public void start()
         {
@@ -28,9 +30,15 @@ namespace BoysGameCenter
 
             this.enabled = true;
         }
+
+
         public void priceSetter(byte price) { this.price = price; }
-        public void ACPriceSetter(byte price) { this.AC[1] = price; }// AC = additionalController
+        
         public void ACNumberSetter(byte number) { this.AC[0] = number; }// AC = additionalController
+        
+        public void ACPriceSetter(byte price) { this.AC[1] = price; }// AC = additionalController
+        
+        
         public void finish()
         {
             finishHour = (byte)DateTime.Now.TimeOfDay.Hours;
@@ -56,9 +64,14 @@ namespace BoysGameCenter
 
             //-------------------------------------------------------------------------------------//
 
-            cost = (finalHour * (price + (AC[0] * AC[1])) / 1f)
+            
+            cost = 1000*((finalHour * (price + (AC[0] * AC[1])) / 1f)
                 + (finalMinute * (price + (AC[0] * AC[1])) / 60f)
-                + (finalSecond * (price + (AC[0] * AC[1])) / 3600);
+                + (finalSecond * (price + (AC[0] * AC[1])) / 3600));
+
+
+            //-------------------------------------------------------------------------------------//
+
 
             totalCost += cost;
 
@@ -66,22 +79,34 @@ namespace BoysGameCenter
             totalTime[1] += finalMinute;
             totalTime[2] += finalSecond;
 
+
             this.enabled = false;
-        }
-        public string report()
-        {
-            string behindHour = " ", behindMinute = " : ", behindSecond = " : ";
+
+            for (int i = 0; i < this.devTimer.Length; i++)
+            {
+                this.devTimer[i] = 0;
+            }
+
+            string behindHour = " ", behindMinute = " : ", behindSecond = " : " ,
+                behindSHour = " ", behindSMinute = " : ", behindSSecond = " : " ,
+                behindFHour = " ", behindFMinute = " : ", behindFSecond = " : ";
+
             if (finalHour < 10) { behindHour += "0"; }
             if (finalMinute < 10) { behindMinute += "0"; }
             if (finalSecond < 10) { behindSecond += "0"; }
 
-            string resualt = "Time :" + behindHour + finalHour.ToString() + behindMinute + finalMinute + behindSecond + finalSecond + "\n" +
-                "Cost : " + cost;
+            if (startHour < 10) { behindSHour += "0"; }
+            if (startMinute < 10) { behindSMinute += "0"; }
+            if (startSecond < 10) { behindSSecond += "0"; }
 
-            //finalText.saveText("start time : " + startHour + ":" + startMinute + ":" + startSecond + " ~ finish time : " + finishHour + ":" + finishMinute + ":" + finishSecond + "" +
-            //    "\n" + resualt);
+            if (finishHour < 10) { behindFHour += "0"; }
+            if (finishMinute < 10) { behindFMinute += "0"; }
+            if (finishSecond < 10) { behindFSecond += "0"; }
 
-            return (resualt);
+            MessageBox.Show(behindSHour + startHour + behindSMinute + startMinute + behindSSecond + startSecond + 
+                "  ~  " + behindFHour + finishHour + behindFMinute + finishMinute + behindFSecond + finishSecond + "\n" +
+                "Time :" + behindHour + finalHour.ToString() + behindMinute + finalMinute + behindSecond + finalSecond + "\n" +
+                "Cost : " + cost);
 
         }
         public bool enabledGetter()
