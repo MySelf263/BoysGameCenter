@@ -41,8 +41,7 @@ namespace BoysGameCenter
         Console ps5_5 = new Console();
 
         //FinalText finalText = new FinalText();
-        //AuxiliaryMenu auxiliaryMenu = new AuxiliaryMenu();
-
+        
 
         private void timer_Tick(object sender, EventArgs e)
         {
@@ -261,6 +260,7 @@ namespace BoysGameCenter
             }
             else
             {
+                ps4_1.ACNumberSetter((byte)comboBox1.SelectedIndex);
                 ps4_1.finish();
                 PS4_1_button.BackColor = Color.Gainsboro;
                 minHourTimer1.Text = "00:00";
@@ -281,6 +281,7 @@ namespace BoysGameCenter
             }
             else
             {
+                ps4_2.ACNumberSetter((byte)comboBox2.SelectedIndex);
                 ps4_2.finish();
                 PS4_2_button.BackColor = Color.Gainsboro;
                 minHourTimer2.Text = "00:00";
@@ -301,6 +302,7 @@ namespace BoysGameCenter
             }
             else
             {
+                ps4_3.ACNumberSetter((byte)comboBox3.SelectedIndex);
                 ps4_3.finish();
                 PS4_3_button.BackColor = Color.Gainsboro;
                 minHourTimer3.Text = "00:00";
@@ -321,6 +323,7 @@ namespace BoysGameCenter
             }
             else
             {
+                ps4_4.ACNumberSetter((byte)comboBox4.SelectedIndex);
                 ps4_4.finish();
                 PS4_4_button.BackColor = Color.Gainsboro;
                 minHourTimer4.Text = "00:00";
@@ -341,6 +344,7 @@ namespace BoysGameCenter
             }
             else
             {
+                ps4_5.ACNumberSetter((byte)comboBox5.SelectedIndex);
                 ps4_5.finish();
                 PS4_5_button.BackColor = Color.Gainsboro;
                 minHourTimer5.Text = "00:00";
@@ -361,6 +365,7 @@ namespace BoysGameCenter
             }
             else
             {
+                ps5_1.ACNumberSetter((byte)comboBox6.SelectedIndex);
                 ps5_1.finish();
                 PS5_1_button.BackColor = Color.Gainsboro;
                 minHourTimer6.Text = "00:00";
@@ -381,6 +386,7 @@ namespace BoysGameCenter
             }
             else
             {
+                ps5_2.ACNumberSetter((byte)comboBox7.SelectedIndex);
                 ps5_2.finish();
                 PS5_2_button.BackColor = Color.Gainsboro;
                 minHourTimer7.Text = "00:00";
@@ -401,6 +407,7 @@ namespace BoysGameCenter
             }
             else
             {
+                ps5_3.ACNumberSetter((byte)comboBox8.SelectedIndex);
                 ps5_3.finish();
                 PS5_3_button.BackColor = Color.Gainsboro;
                 minHourTimer8.Text = "00:00";
@@ -421,6 +428,7 @@ namespace BoysGameCenter
             }
             else
             {
+                ps5_4.ACNumberSetter((byte)comboBox9.SelectedIndex);
                 ps5_4.finish();
                 PS5_4_button.BackColor = Color.Gainsboro;
                 minHourTimer9.Text = "00:00";
@@ -441,6 +449,7 @@ namespace BoysGameCenter
             }
             else
             {
+                ps5_5.ACNumberSetter((byte)comboBox10.SelectedIndex);
                 ps5_5.finish();
                 PS5_5_button.BackColor = Color.Gainsboro;
                 minHourTimer10.Text = "00:00";
@@ -481,11 +490,10 @@ namespace BoysGameCenter
             settingForm.ShowDialog();
         }
 
-        private void minHourTimer1_Click(object sender, EventArgs e)
+        private void minHourTimer1_Click_1(object sender, EventArgs e)
         {
-            //auxiliaryMenu.ShowDialog();
+            AuxiliaryMenu auxiliaryMenu = new AuxiliaryMenu(ps4_1);
+            auxiliaryMenu.ShowDialog();
         }
-
-
     }
 }

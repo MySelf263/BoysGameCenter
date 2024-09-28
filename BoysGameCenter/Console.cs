@@ -7,7 +7,7 @@ using System.Windows.Forms;
 
 namespace BoysGameCenter
 {
-    internal class Console
+    public class Console
     {
         private byte startSecond, startMinute, startHour;
         //private byte nowSecond, nowMinute, nowHour;
@@ -65,7 +65,7 @@ namespace BoysGameCenter
             //-------------------------------------------------------------------------------------//
 
             
-            cost = 1000*((finalHour * (price + (AC[0] * AC[1])) / 1f)
+             cost = ((finalHour * (price + (AC[0] * AC[1])) / 1f)
                 + (finalMinute * (price + (AC[0] * AC[1])) / 60f)
                 + (finalSecond * (price + (AC[0] * AC[1])) / 3600));
 
@@ -89,7 +89,8 @@ namespace BoysGameCenter
 
             string behindHour = " ", behindMinute = " : ", behindSecond = " : " ,
                 behindSHour = " ", behindSMinute = " : ", behindSSecond = " : " ,
-                behindFHour = " ", behindFMinute = " : ", behindFSecond = " : ";
+                behindFHour = " ", behindFMinute = " : ", behindFSecond = " : " ,
+                additionalController = "" ;
 
             if (finalHour < 10) { behindHour += "0"; }
             if (finalMinute < 10) { behindMinute += "0"; }
@@ -103,10 +104,24 @@ namespace BoysGameCenter
             if (finishMinute < 10) { behindFMinute += "0"; }
             if (finishSecond < 10) { behindFSecond += "0"; }
 
+            switch (AC[0])
+            {
+                case (0):
+                    additionalController = "1or2 Controller(s)";
+                    break;
+
+                case (1):
+                    additionalController = "3 Controllers";
+                    break;
+
+                case (2):
+                    additionalController = "4 Controllers";
+                    break;
+            }
             MessageBox.Show(behindSHour + startHour + behindSMinute + startMinute + behindSSecond + startSecond + 
                 "  ~  " + behindFHour + finishHour + behindFMinute + finishMinute + behindFSecond + finishSecond + "\n" +
                 "Time :" + behindHour + finalHour.ToString() + behindMinute + finalMinute + behindSecond + finalSecond + "\n" +
-                "Cost : " + cost);
+                additionalController + "\nCost : " + cost);
 
         }
         public bool enabledGetter()
@@ -144,5 +159,7 @@ namespace BoysGameCenter
             //finalText.saveText("total time : " + totalTime[0] + ":" + totalTime[1] + ":" + totalTime[2] + "\n"
             //    + "total cost = " + totalCost);
         }
+
+        public Console() { }
     }
 }

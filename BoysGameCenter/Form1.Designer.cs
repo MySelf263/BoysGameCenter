@@ -99,7 +99,6 @@
             this.secondsTimer6.Size = new System.Drawing.Size(32, 20);
             this.secondsTimer6.TabIndex = 11;
             this.secondsTimer6.Text = ":00";
-            this.secondsTimer6.Click += new System.EventHandler(this.minHourTimer1_Click);
             // 
             // minHourTimer6
             // 
@@ -111,7 +110,6 @@
             this.minHourTimer6.Size = new System.Drawing.Size(91, 36);
             this.minHourTimer6.TabIndex = 10;
             this.minHourTimer6.Text = "00:00";
-            this.minHourTimer6.Click += new System.EventHandler(this.minHourTimer1_Click);
             // 
             // PS5_1_button
             // 
@@ -139,7 +137,6 @@
             this.comboBox6.Name = "comboBox6";
             this.comboBox6.Size = new System.Drawing.Size(121, 26);
             this.comboBox6.TabIndex = 13;
-
             // 
             // minHourTimer7
             // 
@@ -344,6 +341,7 @@
             this.minHourTimer1.Size = new System.Drawing.Size(91, 36);
             this.minHourTimer1.TabIndex = 10;
             this.minHourTimer1.Text = "00:00";
+            this.minHourTimer1.Click += new System.EventHandler(this.minHourTimer1_Click_1);
             // 
             // secondsTimer1
             // 
