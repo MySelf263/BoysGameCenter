@@ -31,7 +31,154 @@ namespace BoysGameCenter
             comboBox8.SelectedIndex = 0;
             comboBox9.SelectedIndex = 0;
             comboBox10.SelectedIndex = 0;
-            
+            switch (settingForm.PS4_number())
+            { 
+                case (1):
+                    minHourTimer1.Enabled = true;
+                    secondsTimer1.Enabled = true;
+                    PS4_1_button.Enabled = true;
+                    comboBox1.Enabled = true;
+                    break;
+                case (2):
+                    minHourTimer1.Enabled = true;
+                    secondsTimer1.Enabled = true;
+                    PS4_1_button.Enabled = true;
+                    comboBox1.Enabled = true;
+                    minHourTimer2.Enabled=true;
+                    secondsTimer2.Enabled=true;
+                    PS4_2_button.Enabled = true;
+                    comboBox2.Enabled = true;
+                    break;
+                case (3):
+                    minHourTimer1.Enabled = true;
+                    secondsTimer1.Enabled = true;
+                    PS4_1_button.Enabled = true;
+                    comboBox1.Enabled = true;
+                    minHourTimer2.Enabled = true;
+                    secondsTimer2.Enabled = true;
+                    PS4_2_button.Enabled = true;
+                    comboBox2.Enabled = true;
+                    minHourTimer3.Enabled=true;
+                    secondsTimer3.Enabled=true;
+                    PS4_3_button.Enabled = true;
+                    comboBox3.Enabled = true;
+                    break;
+                case (4):
+                    minHourTimer1.Enabled = true;
+                    secondsTimer1.Enabled = true;
+                    PS4_1_button.Enabled = true;
+                    comboBox1.Enabled = true;
+                    minHourTimer2.Enabled = true;
+                    secondsTimer2.Enabled = true;
+                    PS4_2_button.Enabled = true;
+                    comboBox2.Enabled = true;
+                    minHourTimer3.Enabled = true;
+                    secondsTimer3.Enabled = true;
+                    PS4_3_button.Enabled = true;
+                    comboBox3.Enabled = true;
+                    minHourTimer4.Enabled=true;
+                    secondsTimer4.Enabled=true;
+                    PS4_4_button.Enabled = true;
+                    comboBox4.Enabled = true;
+                    break;
+                case (5):
+                    minHourTimer1.Enabled = true;
+                    secondsTimer1.Enabled = true;
+                    PS4_1_button.Enabled = true;
+                    comboBox1.Enabled = true;
+                    minHourTimer2.Enabled = true;
+                    secondsTimer2.Enabled = true;
+                    PS4_2_button.Enabled = true;
+                    comboBox2.Enabled = true;
+                    minHourTimer3.Enabled = true;
+                    secondsTimer3.Enabled = true;
+                    PS4_3_button.Enabled = true;
+                    comboBox3.Enabled = true;
+                    minHourTimer4.Enabled = true;
+                    secondsTimer4.Enabled = true;
+                    PS4_4_button.Enabled = true;
+                    comboBox4.Enabled = true;
+                    minHourTimer5.Enabled=true;
+                    secondsTimer5.Enabled=true;
+                    PS4_5_button.Enabled = true;
+                    comboBox5.Enabled = true;
+                    break;
+            }
+
+            switch (settingForm.PS5_number())
+            {
+                case (1):
+                    minHourTimer6.Enabled = true;
+                    secondsTimer6.Enabled = true;
+                    PS5_1_button.Enabled = true;
+                    comboBox6.Enabled = true;
+                    break;
+                case (2):
+                    minHourTimer6.Enabled = true;
+                    secondsTimer6.Enabled = true;
+                    PS5_1_button.Enabled = true;
+                    comboBox6.Enabled = true;
+                    minHourTimer7.Enabled = true;
+                    secondsTimer7.Enabled = true;
+                    PS5_2_button.Enabled = true;
+                    comboBox7.Enabled = true;
+                    break;
+                case (3):
+                    minHourTimer6.Enabled = true;
+                    secondsTimer6.Enabled = true;
+                    PS5_1_button.Enabled = true;
+                    comboBox6.Enabled = true;
+                    minHourTimer7.Enabled = true;
+                    secondsTimer7.Enabled = true;
+                    PS5_2_button.Enabled = true;
+                    comboBox7.Enabled = true;
+                    minHourTimer8.Enabled = true;
+                    secondsTimer8.Enabled = true;
+                    PS5_3_button.Enabled = true;
+                    comboBox8.Enabled = true;
+                    break;
+                case (4):
+                    minHourTimer6.Enabled = true;
+                    secondsTimer6.Enabled = true;
+                    PS5_1_button.Enabled = true;
+                    comboBox6.Enabled = true;
+                    minHourTimer7.Enabled = true;
+                    secondsTimer7.Enabled = true;
+                    PS5_2_button.Enabled = true;
+                    comboBox7.Enabled = true;
+                    minHourTimer8.Enabled = true;
+                    secondsTimer8.Enabled = true;
+                    PS5_3_button.Enabled = true;
+                    comboBox8.Enabled = true;
+                    minHourTimer9.Enabled = true;
+                    secondsTimer9.Enabled = true;
+                    PS5_4_button.Enabled = true;
+                    comboBox9.Enabled = true;
+                    break;
+                case (5):
+                    minHourTimer6.Enabled = true;
+                    secondsTimer6.Enabled = true;
+                    PS5_1_button.Enabled = true;
+                    comboBox6.Enabled = true;
+                    minHourTimer7.Enabled = true;
+                    secondsTimer7.Enabled = true;
+                    PS5_2_button.Enabled = true;
+                    comboBox7.Enabled = true;
+                    minHourTimer8.Enabled = true;
+                    secondsTimer8.Enabled = true;
+                    PS5_3_button.Enabled = true;
+                    comboBox8.Enabled = true;
+                    minHourTimer9.Enabled = true;
+                    secondsTimer9.Enabled = true;
+                    PS5_4_button.Enabled = true;
+                    comboBox9.Enabled = true;
+                    minHourTimer10.Enabled = true;
+                    secondsTimer10.Enabled = true;
+                    PS5_5_button.Enabled = true;
+                    comboBox10.Enabled = true;
+                    break;
+            }
+
         }
        
         SettingForm settingForm = new SettingForm();
@@ -58,211 +205,471 @@ namespace BoysGameCenter
             if (ps4_1.enabledGetter())
             {
                 atention = true;
-                ps4_1.devTimer[0] += 1;
-                if (ps4_1.devTimer[0] > 59)
+                
+                
+                if (ps4_1.devTimer[0] > 59 || ps4_1.devTimer[0] == 0 && ps4_1.devTimer[1] < 0)
                 {
-                    ps4_1.devTimer[0] = 0;
+                    if (ps4_1.devTimer[1] >= 0)
+                    {
+                        ps4_1.devTimer[0] = 0;
+                    }
+                    else
+                    {
+                        ps4_1.devTimer[0] = -60;
+                    }
                     ps4_1.devTimer[1] += 1;
                 }
-                if (ps4_1.devTimer[1] > 59)
+
+
+                ps4_1.devTimer[0] += 1;
+
+
+                if (ps4_1.devTimer[1] > 59 || ps4_1.devTimer[1] == 0 && ps4_1.devTimer[2] < 0)
                 {
-                    ps4_1.devTimer[1] = 0;
+                    if (ps4_1.devTimer[2] >= 0)
+                    {
+                        ps4_1.devTimer[1] = 0;
+                    }
+                    else
+                    {
+                        ps4_1.devTimer[1] = -60;
+                        ps4_1.devTimer[0] = -60;
+                    }
                     ps4_1.devTimer[2] += 1;
                 }
+                if (ps4_1.devTimer[2] == 0 && ps4_1.devTimer[1] == 0 && ps4_1.devTimer[0] == -1)
+                {
+                    MessageBox.Show("به اتمام رسید PS4_1 زمان رزرو");
+                }
                 string behindHour = "", behindMinute = ":", behindSecond = ":";
-                if (ps4_1.devTimer[2] < 10) { behindHour += "0"; }
-                if (ps4_1.devTimer[1] < 10) { behindMinute += "0"; }
-                if (ps4_1.devTimer[0] < 10) { behindSecond += "0"; }
+                if (ps4_1.devTimer[2] < 10 && ps4_1.devTimer[2] >= 0) { behindHour += "0"; }
+                if (ps4_1.devTimer[1] < 10 && ps4_1.devTimer[1] >= 0) { behindMinute += "0"; }
+                if (ps4_1.devTimer[0] < 10 && ps4_1.devTimer[0] >= 0) { behindSecond += "0"; }
                 minHourTimer1.Text = behindHour + ps4_1.devTimer[2] + behindMinute + ps4_1.devTimer[1];
                 secondsTimer1.Text = behindSecond + ps4_1.devTimer[0];
+
             }
             if (ps4_2.enabledGetter())
             {
+
                 atention = true;
-                ps4_2.devTimer[0] += 1;
-                if (ps4_2.devTimer[0] > 59)
+
+
+                if (ps4_2.devTimer[0] > 59 || ps4_2.devTimer[0] == 0 && ps4_2.devTimer[1] < 0)
                 {
-                    ps4_2.devTimer[0] = 0;
+                    if (ps4_2.devTimer[1] >= 0)
+                    {
+                        ps4_2.devTimer[0] = 0;
+                    }
+                    else
+                    {
+                        ps4_2.devTimer[0] = -60;
+                    }
                     ps4_2.devTimer[1] += 1;
                 }
-                if (ps4_2.devTimer[1] > 59)
+
+
+                ps4_2.devTimer[0] += 1;
+
+
+                if (ps4_2.devTimer[1] > 59 || ps4_2.devTimer[1] == 0 && ps4_2.devTimer[2] < 0)
                 {
-                    ps4_2.devTimer[1] = 0;
+                    if (ps4_2.devTimer[2] >= 0)
+                    {
+                        ps4_2.devTimer[1] = 0;
+                    }
+                    else
+                    {
+                        ps4_2.devTimer[1] = -60;
+                        ps4_2.devTimer[0] = -60;
+                    }
                     ps4_2.devTimer[2] += 1;
                 }
+                if (ps4_2.devTimer[2] == 0 && ps4_2.devTimer[1] == 0 && ps4_2.devTimer[0] == -1)
+                {
+                    MessageBox.Show("به اتمام رسید ps4_2 زمان رزرو");
+                }
                 string behindHour = "", behindMinute = ":", behindSecond = ":";
-                if (ps4_2.devTimer[2] < 10) { behindHour += "0"; }
-                if (ps4_2.devTimer[1] < 10) { behindMinute += "0"; }
-                if (ps4_2.devTimer[0] < 10) { behindSecond += "0"; }
+                if (ps4_2.devTimer[2] < 10 && ps4_2.devTimer[2] >= 0) { behindHour += "0"; }
+                if (ps4_2.devTimer[1] < 10 && ps4_2.devTimer[1] >= 0) { behindMinute += "0"; }
+                if (ps4_2.devTimer[0] < 10 && ps4_2.devTimer[0] >= 0) { behindSecond += "0"; }
                 minHourTimer2.Text = behindHour + ps4_2.devTimer[2] + behindMinute + ps4_2.devTimer[1];
                 secondsTimer2.Text = behindSecond + ps4_2.devTimer[0];
             }
             if (ps4_3.enabledGetter())
             {
+
                 atention = true;
-                ps4_3.devTimer[0] += 1;
-                if (ps4_3.devTimer[0] > 59)
+
+
+                if (ps4_3.devTimer[0] > 59 || ps4_3.devTimer[0] == 0 && ps4_3.devTimer[1] < 0)
                 {
-                    ps4_3.devTimer[0] = 0;
+                    if (ps4_3.devTimer[1] >= 0)
+                    {
+                        ps4_3.devTimer[0] = 0;
+                    }
+                    else
+                    {
+                        ps4_3.devTimer[0] = -60;
+                    }
                     ps4_3.devTimer[1] += 1;
                 }
-                if (ps4_3.devTimer[1] > 59)
+
+
+                ps4_3.devTimer[0] += 1;
+
+
+                if (ps4_3.devTimer[1] > 59 || ps4_3.devTimer[1] == 0 && ps4_3.devTimer[2] < 0)
                 {
-                    ps4_3.devTimer[1] = 0;
+                    if (ps4_3.devTimer[2] >= 0)
+                    {
+                        ps4_3.devTimer[1] = 0;
+                    }
+                    else
+                    {
+                        ps4_3.devTimer[1] = -60;
+                        ps4_3.devTimer[0] = -60;
+                    }
                     ps4_3.devTimer[2] += 1;
                 }
+                if (ps4_3.devTimer[2] == 0 && ps4_3.devTimer[1] == 0 && ps4_3.devTimer[0] == -1)
+                {
+                    MessageBox.Show("به اتمام رسید ps4_3 زمان رزرو");
+                }
                 string behindHour = "", behindMinute = ":", behindSecond = ":";
-                if (ps4_3.devTimer[2] < 10) { behindHour += "0"; }
-                if (ps4_3.devTimer[1] < 10) { behindMinute += "0"; }
-                if (ps4_3.devTimer[0] < 10) { behindSecond += "0"; }
+                if (ps4_3.devTimer[2] < 10 && ps4_3.devTimer[2] >= 0) { behindHour += "0"; }
+                if (ps4_3.devTimer[1] < 10 && ps4_3.devTimer[1] >= 0) { behindMinute += "0"; }
+                if (ps4_3.devTimer[0] < 10 && ps4_3.devTimer[0] >= 0) { behindSecond += "0"; }
                 minHourTimer3.Text = behindHour + ps4_3.devTimer[2] + behindMinute + ps4_3.devTimer[1];
                 secondsTimer3.Text = behindSecond + ps4_3.devTimer[0];
             }
             if (ps4_4.enabledGetter())
             {
+
                 atention = true;
-                ps4_4.devTimer[0] += 1;
-                if (ps4_4.devTimer[0] > 59)
+
+
+                if (ps4_4.devTimer[0] > 59 || ps4_4.devTimer[0] == 0 && ps4_4.devTimer[1] < 0)
                 {
-                    ps4_4.devTimer[0] = 0;
+                    if (ps4_4.devTimer[1] >= 0)
+                    {
+                        ps4_4.devTimer[0] = 0;
+                    }
+                    else
+                    {
+                        ps4_4.devTimer[0] = -60;
+                    }
                     ps4_4.devTimer[1] += 1;
                 }
-                if (ps4_4.devTimer[1] > 59)
+
+
+                ps4_4.devTimer[0] += 1;
+
+
+                if (ps4_4.devTimer[1] > 59 || ps4_4.devTimer[1] == 0 && ps4_4.devTimer[2] < 0)
                 {
-                    ps4_4.devTimer[1] = 0;
+                    if (ps4_4.devTimer[2] >= 0)
+                    {
+                        ps4_4.devTimer[1] = 0;
+                    }
+                    else
+                    {
+                        ps4_4.devTimer[1] = -60;
+                        ps4_4.devTimer[0] = -60;
+                    }
                     ps4_4.devTimer[2] += 1;
                 }
+                if (ps4_4.devTimer[2] == 0 && ps4_4.devTimer[1] == 0 && ps4_4.devTimer[0] == -1)
+                {
+                    MessageBox.Show("به اتمام رسید ps4_4 زمان رزرو");
+                }
                 string behindHour = "", behindMinute = ":", behindSecond = ":";
-                if (ps4_4.devTimer[2] < 10) { behindHour += "0"; }
-                if (ps4_4.devTimer[1] < 10) { behindMinute += "0"; }
-                if (ps4_4.devTimer[0] < 10) { behindSecond += "0"; }
+                if (ps4_4.devTimer[2] < 10 && ps4_4.devTimer[2] >= 0) { behindHour += "0"; }
+                if (ps4_4.devTimer[1] < 10 && ps4_4.devTimer[1] >= 0) { behindMinute += "0"; }
+                if (ps4_4.devTimer[0] < 10 && ps4_4.devTimer[0] >= 0) { behindSecond += "0"; }
                 minHourTimer4.Text = behindHour + ps4_4.devTimer[2] + behindMinute + ps4_4.devTimer[1];
                 secondsTimer4.Text = behindSecond + ps4_4.devTimer[0];
             }
             if (ps4_5.enabledGetter())
             {
+
                 atention = true;
-                ps4_5.devTimer[0] += 1;
-                if (ps4_5.devTimer[0] > 59)
+
+
+                if (ps4_5.devTimer[0] > 59 || ps4_5.devTimer[0] == 0 && ps4_5.devTimer[1] < 0)
                 {
-                    ps4_5.devTimer[0] = 0;
+                    if (ps4_5.devTimer[1] >= 0)
+                    {
+                        ps4_5.devTimer[0] = 0;
+                    }
+                    else
+                    {
+                        ps4_5.devTimer[0] = -60;
+                    }
                     ps4_5.devTimer[1] += 1;
                 }
-                if (ps4_5.devTimer[1] > 59)
+
+
+                ps4_5.devTimer[0] += 1;
+
+
+                if (ps4_5.devTimer[1] > 59 || ps4_5.devTimer[1] == 0 && ps4_5.devTimer[2] < 0)
                 {
-                    ps4_5.devTimer[1] = 0;
+                    if (ps4_5.devTimer[2] >= 0)
+                    {
+                        ps4_5.devTimer[1] = 0;
+                    }
+                    else
+                    {
+                        ps4_5.devTimer[1] = -60;
+                        ps4_5.devTimer[0] = -60;
+                    }
                     ps4_5.devTimer[2] += 1;
                 }
+                if (ps4_5.devTimer[2] == 0 && ps4_5.devTimer[1] == 0 && ps4_5.devTimer[0] == -1)
+                {
+                    MessageBox.Show("به اتمام رسید ps4_5 زمان رزرو");
+                }
                 string behindHour = "", behindMinute = ":", behindSecond = ":";
-                if (ps4_5.devTimer[2] < 10) { behindHour += "0"; }
-                if (ps4_5.devTimer[1] < 10) { behindMinute += "0"; }
-                if (ps4_5.devTimer[0] < 10) { behindSecond += "0"; }
+                if (ps4_5.devTimer[2] < 10 && ps4_5.devTimer[2] >= 0) { behindHour += "0"; }
+                if (ps4_5.devTimer[1] < 10 && ps4_5.devTimer[1] >= 0) { behindMinute += "0"; }
+                if (ps4_5.devTimer[0] < 10 && ps4_5.devTimer[0] >= 0) { behindSecond += "0"; }
                 minHourTimer5.Text = behindHour + ps4_5.devTimer[2] + behindMinute + ps4_5.devTimer[1];
                 secondsTimer5.Text = behindSecond + ps4_5.devTimer[0];
             }
 
             if (ps5_1.enabledGetter())
             {
+
                 atention = true;
-                ps5_1.devTimer[0] += 1;
-                if (ps5_1.devTimer[0] > 59)
+
+
+                if (ps5_1.devTimer[0] > 59 || ps5_1.devTimer[0] == 0 && ps5_1.devTimer[1] < 0)
                 {
-                    ps5_1.devTimer[0] = 0;
+                    if (ps5_1.devTimer[1] >= 0)
+                    {
+                        ps5_1.devTimer[0] = 0;
+                    }
+                    else
+                    {
+                        ps5_1.devTimer[0] = -60;
+                    }
                     ps5_1.devTimer[1] += 1;
                 }
-                if (ps5_1.devTimer[1] > 59)
+
+
+                ps5_1.devTimer[0] += 1;
+
+
+                if (ps5_1.devTimer[1] > 59 || ps5_1.devTimer[1] == 0 && ps5_1.devTimer[2] < 0)
                 {
-                    ps5_1.devTimer[1] = 0;
+                    if (ps5_1.devTimer[2] >= 0)
+                    {
+                        ps5_1.devTimer[1] = 0;
+                    }
+                    else
+                    {
+                        ps5_1.devTimer[1] = -60;
+                        ps5_1.devTimer[0] = -60;
+                    }
                     ps5_1.devTimer[2] += 1;
                 }
+                if (ps5_1.devTimer[2] == 0 && ps5_1.devTimer[1] == 0 && ps5_1.devTimer[0] == -1)
+                {
+                    MessageBox.Show("به اتمام رسید ps5_1 زمان رزرو");
+                }
                 string behindHour = "", behindMinute = ":", behindSecond = ":";
-                if (ps5_1.devTimer[2] < 10) { behindHour += "0"; }
-                if (ps5_1.devTimer[1] < 10) { behindMinute += "0"; }
-                if (ps5_1.devTimer[0] < 10) { behindSecond += "0"; }
+                if (ps5_1.devTimer[2] < 10 && ps5_1.devTimer[2] >= 0) { behindHour += "0"; }
+                if (ps5_1.devTimer[1] < 10 && ps5_1.devTimer[1] >= 0) { behindMinute += "0"; }
+                if (ps5_1.devTimer[0] < 10 && ps5_1.devTimer[0] >= 0) { behindSecond += "0"; }
                 minHourTimer6.Text = behindHour + ps5_1.devTimer[2] + behindMinute + ps5_1.devTimer[1];
                 secondsTimer6.Text = behindSecond + ps5_1.devTimer[0];
             }
             if (ps5_2.enabledGetter())
             {
+
                 atention = true;
-                ps5_2.devTimer[0] += 1;
-                if (ps5_2.devTimer[0] > 59)
+
+
+                if (ps5_2.devTimer[0] > 59 || ps5_2.devTimer[0] == 0 && ps5_2.devTimer[1] < 0)
                 {
-                    ps5_2.devTimer[0] = 0;
+                    if (ps5_2.devTimer[1] >= 0)
+                    {
+                        ps5_2.devTimer[0] = 0;
+                    }
+                    else
+                    {
+                        ps5_2.devTimer[0] = -60;
+                    }
                     ps5_2.devTimer[1] += 1;
                 }
-                if (ps5_2.devTimer[1] > 59)
+
+
+                ps5_2.devTimer[0] += 1;
+
+
+                if (ps5_2.devTimer[1] > 59 || ps5_2.devTimer[1] == 0 && ps5_2.devTimer[2] < 0)
                 {
-                    ps5_2.devTimer[1] = 0;
+                    if (ps5_2.devTimer[2] >= 0)
+                    {
+                        ps5_2.devTimer[1] = 0;
+                    }
+                    else
+                    {
+                        ps5_2.devTimer[1] = -60;
+                        ps5_2.devTimer[0] = -60;
+                    }
                     ps5_2.devTimer[2] += 1;
                 }
+                if (ps5_2.devTimer[2] == 0 && ps5_2.devTimer[1] == 0 && ps5_2.devTimer[0] == -1)
+                {
+                    MessageBox.Show("به اتمام رسید ps5_2 زمان رزرو");
+                }
                 string behindHour = "", behindMinute = ":", behindSecond = ":";
-                if (ps5_2.devTimer[2] < 10) { behindHour += "0"; }
-                if (ps5_2.devTimer[1] < 10) { behindMinute += "0"; }
-                if (ps5_2.devTimer[0] < 10) { behindSecond += "0"; }
+                if (ps5_2.devTimer[2] < 10 && ps5_2.devTimer[2] >= 0) { behindHour += "0"; }
+                if (ps5_2.devTimer[1] < 10 && ps5_2.devTimer[1] >= 0) { behindMinute += "0"; }
+                if (ps5_2.devTimer[0] < 10 && ps5_2.devTimer[0] >= 0) { behindSecond += "0"; }
                 minHourTimer7.Text = behindHour + ps5_2.devTimer[2] + behindMinute + ps5_2.devTimer[1];
                 secondsTimer7.Text = behindSecond + ps5_2.devTimer[0];
             }
             if (ps5_3.enabledGetter())
             {
+
                 atention = true;
-                ps5_3.devTimer[0] += 1;
-                if (ps5_3.devTimer[0] > 59)
+
+
+                if (ps5_3.devTimer[0] > 59 || ps5_3.devTimer[0] == 0 && ps5_3.devTimer[1] < 0)
                 {
-                    ps5_3.devTimer[0] = 0;
+                    if (ps5_3.devTimer[1] >= 0)
+                    {
+                        ps5_3.devTimer[0] = 0;
+                    }
+                    else
+                    {
+                        ps5_3.devTimer[0] = -60;
+                    }
                     ps5_3.devTimer[1] += 1;
                 }
-                if (ps5_3.devTimer[1] > 59)
+
+
+                ps5_3.devTimer[0] += 1;
+
+
+                if (ps5_3.devTimer[1] > 59 || ps5_3.devTimer[1] == 0 && ps5_3.devTimer[2] < 0)
                 {
-                    ps5_3.devTimer[1] = 0;
+                    if (ps5_3.devTimer[2] >= 0)
+                    {
+                        ps5_3.devTimer[1] = 0;
+                    }
+                    else
+                    {
+                        ps5_3.devTimer[1] = -60;
+                        ps5_3.devTimer[0] = -60;
+                    }
                     ps5_3.devTimer[2] += 1;
                 }
+                if (ps5_3.devTimer[2] == 0 && ps5_3.devTimer[1] == 0 && ps5_3.devTimer[0] == -1)
+                {
+                    MessageBox.Show("به اتمام رسید ps5_3 زمان رزرو");
+                }
                 string behindHour = "", behindMinute = ":", behindSecond = ":";
-                if (ps5_3.devTimer[2] < 10) { behindHour += "0"; }
-                if (ps5_3.devTimer[1] < 10) { behindMinute += "0"; }
-                if (ps5_3.devTimer[0] < 10) { behindSecond += "0"; }
+                if (ps5_3.devTimer[2] < 10 && ps5_3.devTimer[2] >= 0) { behindHour += "0"; }
+                if (ps5_3.devTimer[1] < 10 && ps5_3.devTimer[1] >= 0) { behindMinute += "0"; }
+                if (ps5_3.devTimer[0] < 10 && ps5_3.devTimer[0] >= 0) { behindSecond += "0"; }
                 minHourTimer8.Text = behindHour + ps5_3.devTimer[2] + behindMinute + ps5_3.devTimer[1];
                 secondsTimer8.Text = behindSecond + ps5_3.devTimer[0];
             }
             if (ps5_4.enabledGetter())
             {
+
                 atention = true;
-                ps5_4.devTimer[0] += 1;
-                if (ps5_4.devTimer[0] > 59)
+
+
+                if (ps5_4.devTimer[0] > 59 || ps5_4.devTimer[0] == 0 && ps5_4.devTimer[1] < 0)
                 {
-                    ps5_4.devTimer[0] = 0;
+                    if (ps5_4.devTimer[1] >= 0)
+                    {
+                        ps5_4.devTimer[0] = 0;
+                    }
+                    else
+                    {
+                        ps5_4.devTimer[0] = -60;
+                    }
                     ps5_4.devTimer[1] += 1;
                 }
-                if (ps5_4.devTimer[1] > 59)
+
+
+                ps5_4.devTimer[0] += 1;
+
+
+                if (ps5_4.devTimer[1] > 59 || ps5_4.devTimer[1] == 0 && ps5_4.devTimer[2] < 0)
                 {
-                    ps5_4.devTimer[1] = 0;
+                    if (ps5_4.devTimer[2] >= 0)
+                    {
+                        ps5_4.devTimer[1] = 0;
+                    }
+                    else
+                    {
+                        ps5_4.devTimer[1] = -60;
+                        ps5_4.devTimer[0] = -60;
+                    }
                     ps5_4.devTimer[2] += 1;
                 }
+                if (ps5_4.devTimer[2] == 0 && ps5_4.devTimer[1] == 0 && ps5_4.devTimer[0] == -1)
+                {
+                    MessageBox.Show("به اتمام رسید ps5_4 زمان رزرو");
+                }
                 string behindHour = "", behindMinute = ":", behindSecond = ":";
-                if (ps5_4.devTimer[2] < 10) { behindHour += "0"; }
-                if (ps5_4.devTimer[1] < 10) { behindMinute += "0"; }
-                if (ps5_4.devTimer[0] < 10) { behindSecond += "0"; }
+                if (ps5_4.devTimer[2] < 10 && ps5_4.devTimer[2] >= 0) { behindHour += "0"; }
+                if (ps5_4.devTimer[1] < 10 && ps5_4.devTimer[1] >= 0) { behindMinute += "0"; }
+                if (ps5_4.devTimer[0] < 10 && ps5_4.devTimer[0] >= 0) { behindSecond += "0"; }
                 minHourTimer9.Text = behindHour + ps5_4.devTimer[2] + behindMinute + ps5_4.devTimer[1];
                 secondsTimer9.Text = behindSecond + ps5_4.devTimer[0];
             }
             if (ps5_5.enabledGetter())
             {
+
                 atention = true;
-                ps5_5.devTimer[0] += 1;
-                if (ps5_5.devTimer[0] > 59)
+
+
+                if (ps5_5.devTimer[0] > 59 || ps5_5.devTimer[0] == 0 && ps5_5.devTimer[1] < 0)
                 {
-                    ps5_5.devTimer[0] = 0;
+                    if (ps5_5.devTimer[1] >= 0)
+                    {
+                        ps5_5.devTimer[0] = 0;
+                    }
+                    else
+                    {
+                        ps5_5.devTimer[0] = -60;
+                    }
                     ps5_5.devTimer[1] += 1;
                 }
-                if (ps5_5.devTimer[1] > 59)
+
+
+                ps5_5.devTimer[0] += 1;
+
+
+                if (ps5_5.devTimer[1] > 59 || ps5_5.devTimer[1] == 0 && ps5_5.devTimer[2] < 0)
                 {
-                    ps5_5.devTimer[1] = 0;
+                    if (ps5_5.devTimer[2] >= 0)
+                    {
+                        ps5_5.devTimer[1] = 0;
+                    }
+                    else
+                    {
+                        ps5_5.devTimer[1] = -60;
+                        ps5_5.devTimer[0] = -60;
+                    }
                     ps5_5.devTimer[2] += 1;
                 }
+                if (ps5_5.devTimer[2] == 0 && ps5_5.devTimer[1] == 0 && ps5_5.devTimer[0] == -1)
+                {
+                    MessageBox.Show("به اتمام رسید ps5_5 زمان رزرو");
+                }
                 string behindHour = "", behindMinute = ":", behindSecond = ":";
-                if (ps5_5.devTimer[2] < 10) { behindHour += "0"; }
-                if (ps5_5.devTimer[1] < 10) { behindMinute += "0"; }
-                if (ps5_5.devTimer[0] < 10) { behindSecond += "0"; }
+                if (ps5_5.devTimer[2] < 10 && ps5_5.devTimer[2] >= 0) { behindHour += "0"; }
+                if (ps5_5.devTimer[1] < 10 && ps5_5.devTimer[1] >= 0) { behindMinute += "0"; }
+                if (ps5_5.devTimer[0] < 10 && ps5_5.devTimer[0] >= 0) { behindSecond += "0"; }
                 minHourTimer10.Text = behindHour + ps5_5.devTimer[2] + behindMinute + ps5_5.devTimer[1];
                 secondsTimer10.Text = behindSecond + ps5_5.devTimer[0];
             }
@@ -535,7 +942,7 @@ namespace BoysGameCenter
 
                 this.Close();
             }
-            else MessageBox.Show(" ! یک دستگاه روشن است", "atention");
+            else MessageBox.Show(" ! یک یا چند دستگاه روشن است", "atention");
         }
 
         private void Setting_button_Click(object sender, EventArgs e)
@@ -543,10 +950,65 @@ namespace BoysGameCenter
             settingForm.ShowDialog();
         }
 
-        private void minHourTimer1_Click_1(object sender, EventArgs e)
+        private void minHourTimer1_Click(object sender, EventArgs e)
         {
             AuxiliaryMenu auxiliaryMenu = new AuxiliaryMenu(ps4_1);
             auxiliaryMenu.ShowDialog();
         }
+
+        private void minHourTimer2_Click(object sender, EventArgs e)
+        {
+            AuxiliaryMenu auxiliaryMenu = new AuxiliaryMenu(ps4_2);
+            auxiliaryMenu.ShowDialog();
+        }
+
+        private void minHourTimer3_Click(object sender, EventArgs e)
+        {
+            AuxiliaryMenu auxiliaryMenu = new AuxiliaryMenu(ps4_3);
+            auxiliaryMenu.ShowDialog();
+        }
+
+        private void minHourTimer4_Click(object sender, EventArgs e)
+        {
+            AuxiliaryMenu auxiliaryMenu = new AuxiliaryMenu(ps4_4);
+            auxiliaryMenu.ShowDialog();
+        }
+
+        private void minHourTimer5_Click(object sender, EventArgs e)
+        {
+            AuxiliaryMenu auxiliaryMenu = new AuxiliaryMenu(ps4_5);
+            auxiliaryMenu.ShowDialog();
+        }
+
+        private void minHourTimer6_Click(object sender, EventArgs e)
+        {
+            AuxiliaryMenu auxiliaryMenu = new AuxiliaryMenu(ps5_1);
+            auxiliaryMenu.ShowDialog();
+        }
+
+        private void minHourTimer7_Click(object sender, EventArgs e)
+        {
+            AuxiliaryMenu auxiliaryMenu = new AuxiliaryMenu(ps5_2);
+            auxiliaryMenu.ShowDialog();
+        }
+
+        private void minHourTimer8_Click(object sender, EventArgs e)
+        {
+            AuxiliaryMenu auxiliaryMenu = new AuxiliaryMenu(ps5_3);
+            auxiliaryMenu.ShowDialog();
+        }
+
+        private void minHourTimer9_Click(object sender, EventArgs e)
+        {
+            AuxiliaryMenu auxiliaryMenu = new AuxiliaryMenu(ps5_4);
+            auxiliaryMenu.ShowDialog();
+        }
+
+        private void minHourTimer10_Click(object sender, EventArgs e)
+        {
+            AuxiliaryMenu auxiliaryMenu = new AuxiliaryMenu(ps5_5);
+            auxiliaryMenu.ShowDialog();
+        }
+
     }
 }

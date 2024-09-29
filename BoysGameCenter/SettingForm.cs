@@ -65,5 +65,14 @@ namespace BoysGameCenter
             folderBrowserDialog.ShowDialog();
             this.path = folderBrowserDialog.SelectedPath;
         }
+
+       public byte PS4_number()
+        {
+            return ((byte)Ps4_No_domainUpDown.Value);
+        }
+        public byte PS5_number()
+        {
+            return ((byte)Ps5_No_domainUpDown.Value);
+        }
     }
 }

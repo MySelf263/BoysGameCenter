@@ -93,6 +93,7 @@
             // secondsTimer6
             // 
             this.secondsTimer6.AutoSize = true;
+            this.secondsTimer6.Enabled = false;
             this.secondsTimer6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.secondsTimer6.Location = new System.Drawing.Point(114, 283);
             this.secondsTimer6.Name = "secondsTimer6";
@@ -103,6 +104,7 @@
             // minHourTimer6
             // 
             this.minHourTimer6.AutoSize = true;
+            this.minHourTimer6.Enabled = false;
             this.minHourTimer6.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.minHourTimer6.ForeColor = System.Drawing.Color.Black;
             this.minHourTimer6.Location = new System.Drawing.Point(29, 270);
@@ -110,10 +112,12 @@
             this.minHourTimer6.Size = new System.Drawing.Size(91, 36);
             this.minHourTimer6.TabIndex = 10;
             this.minHourTimer6.Text = "00:00";
+            this.minHourTimer6.Click += new System.EventHandler(this.minHourTimer6_Click);
             // 
             // PS5_1_button
             // 
             this.PS5_1_button.BackColor = System.Drawing.Color.Gainsboro;
+            this.PS5_1_button.Enabled = false;
             this.PS5_1_button.Font = new System.Drawing.Font("Palatino Linotype", 16F, System.Drawing.FontStyle.Bold);
             this.PS5_1_button.Location = new System.Drawing.Point(27, 320);
             this.PS5_1_button.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -128,6 +132,7 @@
             // 
             this.comboBox6.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
             this.comboBox6.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox6.Enabled = false;
             this.comboBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox6.Items.AddRange(new object[] {
             "1or2 controler(s)",
@@ -141,6 +146,7 @@
             // minHourTimer7
             // 
             this.minHourTimer7.AutoSize = true;
+            this.minHourTimer7.Enabled = false;
             this.minHourTimer7.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.minHourTimer7.ForeColor = System.Drawing.Color.Black;
             this.minHourTimer7.Location = new System.Drawing.Point(173, 270);
@@ -148,10 +154,12 @@
             this.minHourTimer7.Size = new System.Drawing.Size(91, 36);
             this.minHourTimer7.TabIndex = 10;
             this.minHourTimer7.Text = "00:00";
+            this.minHourTimer7.Click += new System.EventHandler(this.minHourTimer7_Click);
             // 
             // secondsTimer7
             // 
             this.secondsTimer7.AutoSize = true;
+            this.secondsTimer7.Enabled = false;
             this.secondsTimer7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.secondsTimer7.Location = new System.Drawing.Point(258, 283);
             this.secondsTimer7.Name = "secondsTimer7";
@@ -163,6 +171,7 @@
             // 
             this.PS5_2_button.BackColor = System.Drawing.Color.Gainsboro;
             this.PS5_2_button.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.PS5_2_button.Enabled = false;
             this.PS5_2_button.Font = new System.Drawing.Font("Palatino Linotype", 16F, System.Drawing.FontStyle.Bold);
             this.PS5_2_button.Location = new System.Drawing.Point(171, 320);
             this.PS5_2_button.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -177,6 +186,7 @@
             // 
             this.comboBox7.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
             this.comboBox7.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox7.Enabled = false;
             this.comboBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox7.Items.AddRange(new object[] {
             "1or2 controler(s)",
@@ -190,6 +200,7 @@
             // minHourTimer8
             // 
             this.minHourTimer8.AutoSize = true;
+            this.minHourTimer8.Enabled = false;
             this.minHourTimer8.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.minHourTimer8.ForeColor = System.Drawing.Color.Black;
             this.minHourTimer8.Location = new System.Drawing.Point(319, 270);
@@ -197,10 +208,12 @@
             this.minHourTimer8.Size = new System.Drawing.Size(91, 36);
             this.minHourTimer8.TabIndex = 10;
             this.minHourTimer8.Text = "00:00";
+            this.minHourTimer8.Click += new System.EventHandler(this.minHourTimer8_Click);
             // 
             // secondsTimer8
             // 
             this.secondsTimer8.AutoSize = true;
+            this.secondsTimer8.Enabled = false;
             this.secondsTimer8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.secondsTimer8.Location = new System.Drawing.Point(404, 283);
             this.secondsTimer8.Name = "secondsTimer8";
@@ -211,6 +224,7 @@
             // PS5_3_button
             // 
             this.PS5_3_button.BackColor = System.Drawing.Color.Gainsboro;
+            this.PS5_3_button.Enabled = false;
             this.PS5_3_button.Font = new System.Drawing.Font("Palatino Linotype", 16F, System.Drawing.FontStyle.Bold);
             this.PS5_3_button.Location = new System.Drawing.Point(317, 320);
             this.PS5_3_button.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -225,6 +239,7 @@
             // 
             this.comboBox8.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
             this.comboBox8.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox8.Enabled = false;
             this.comboBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox8.Items.AddRange(new object[] {
             "1or2 controler(s)",
@@ -238,6 +253,7 @@
             // minHourTimer9
             // 
             this.minHourTimer9.AutoSize = true;
+            this.minHourTimer9.Enabled = false;
             this.minHourTimer9.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.minHourTimer9.ForeColor = System.Drawing.Color.Black;
             this.minHourTimer9.Location = new System.Drawing.Point(465, 270);
@@ -245,10 +261,12 @@
             this.minHourTimer9.Size = new System.Drawing.Size(91, 36);
             this.minHourTimer9.TabIndex = 10;
             this.minHourTimer9.Text = "00:00";
+            this.minHourTimer9.Click += new System.EventHandler(this.minHourTimer9_Click);
             // 
             // secondsTimer9
             // 
             this.secondsTimer9.AutoSize = true;
+            this.secondsTimer9.Enabled = false;
             this.secondsTimer9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.secondsTimer9.Location = new System.Drawing.Point(550, 283);
             this.secondsTimer9.Name = "secondsTimer9";
@@ -259,6 +277,7 @@
             // PS5_4_button
             // 
             this.PS5_4_button.BackColor = System.Drawing.Color.Gainsboro;
+            this.PS5_4_button.Enabled = false;
             this.PS5_4_button.Font = new System.Drawing.Font("Palatino Linotype", 16F, System.Drawing.FontStyle.Bold);
             this.PS5_4_button.Location = new System.Drawing.Point(463, 320);
             this.PS5_4_button.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -273,6 +292,7 @@
             // 
             this.comboBox9.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
             this.comboBox9.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox9.Enabled = false;
             this.comboBox9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox9.Items.AddRange(new object[] {
             "1or2 controler(s)",
@@ -286,6 +306,7 @@
             // minHourTimer10
             // 
             this.minHourTimer10.AutoSize = true;
+            this.minHourTimer10.Enabled = false;
             this.minHourTimer10.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.minHourTimer10.ForeColor = System.Drawing.Color.Black;
             this.minHourTimer10.Location = new System.Drawing.Point(615, 270);
@@ -293,10 +314,12 @@
             this.minHourTimer10.Size = new System.Drawing.Size(91, 36);
             this.minHourTimer10.TabIndex = 10;
             this.minHourTimer10.Text = "00:00";
+            this.minHourTimer10.Click += new System.EventHandler(this.minHourTimer10_Click);
             // 
             // secondsTimer10
             // 
             this.secondsTimer10.AutoSize = true;
+            this.secondsTimer10.Enabled = false;
             this.secondsTimer10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.secondsTimer10.Location = new System.Drawing.Point(700, 283);
             this.secondsTimer10.Name = "secondsTimer10";
@@ -307,6 +330,7 @@
             // PS5_5_button
             // 
             this.PS5_5_button.BackColor = System.Drawing.Color.Gainsboro;
+            this.PS5_5_button.Enabled = false;
             this.PS5_5_button.Font = new System.Drawing.Font("Palatino Linotype", 16F, System.Drawing.FontStyle.Bold);
             this.PS5_5_button.Location = new System.Drawing.Point(613, 320);
             this.PS5_5_button.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -321,6 +345,7 @@
             // 
             this.comboBox10.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
             this.comboBox10.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox10.Enabled = false;
             this.comboBox10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox10.Items.AddRange(new object[] {
             "1or2 controler(s)",
@@ -334,6 +359,7 @@
             // minHourTimer1
             // 
             this.minHourTimer1.AutoSize = true;
+            this.minHourTimer1.Enabled = false;
             this.minHourTimer1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.minHourTimer1.ForeColor = System.Drawing.Color.Black;
             this.minHourTimer1.Location = new System.Drawing.Point(29, 94);
@@ -341,21 +367,24 @@
             this.minHourTimer1.Size = new System.Drawing.Size(91, 36);
             this.minHourTimer1.TabIndex = 10;
             this.minHourTimer1.Text = "00:00";
-            this.minHourTimer1.Click += new System.EventHandler(this.minHourTimer1_Click_1);
+            this.minHourTimer1.Click += new System.EventHandler(this.minHourTimer1_Click);
             // 
             // secondsTimer1
             // 
             this.secondsTimer1.AutoSize = true;
+            this.secondsTimer1.Enabled = false;
             this.secondsTimer1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.secondsTimer1.Location = new System.Drawing.Point(114, 107);
             this.secondsTimer1.Name = "secondsTimer1";
             this.secondsTimer1.Size = new System.Drawing.Size(32, 20);
             this.secondsTimer1.TabIndex = 11;
             this.secondsTimer1.Text = ":00";
+            this.secondsTimer1.Click += new System.EventHandler(this.minHourTimer1_Click);
             // 
             // minHourTimer2
             // 
             this.minHourTimer2.AutoSize = true;
+            this.minHourTimer2.Enabled = false;
             this.minHourTimer2.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.minHourTimer2.ForeColor = System.Drawing.Color.Black;
             this.minHourTimer2.Location = new System.Drawing.Point(173, 94);
@@ -363,10 +392,12 @@
             this.minHourTimer2.Size = new System.Drawing.Size(91, 36);
             this.minHourTimer2.TabIndex = 10;
             this.minHourTimer2.Text = "00:00";
+            this.minHourTimer2.Click += new System.EventHandler(this.minHourTimer2_Click);
             // 
             // PS4_1_button
             // 
             this.PS4_1_button.BackColor = System.Drawing.Color.Gainsboro;
+            this.PS4_1_button.Enabled = false;
             this.PS4_1_button.Font = new System.Drawing.Font("Palatino Linotype", 16F, System.Drawing.FontStyle.Bold);
             this.PS4_1_button.Location = new System.Drawing.Point(27, 144);
             this.PS4_1_button.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -380,6 +411,7 @@
             // minHourTimer3
             // 
             this.minHourTimer3.AutoSize = true;
+            this.minHourTimer3.Enabled = false;
             this.minHourTimer3.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.minHourTimer3.ForeColor = System.Drawing.Color.Black;
             this.minHourTimer3.Location = new System.Drawing.Point(319, 94);
@@ -387,20 +419,24 @@
             this.minHourTimer3.Size = new System.Drawing.Size(91, 36);
             this.minHourTimer3.TabIndex = 10;
             this.minHourTimer3.Text = "00:00";
+            this.minHourTimer3.Click += new System.EventHandler(this.minHourTimer3_Click);
             // 
             // secondsTimer2
             // 
             this.secondsTimer2.AutoSize = true;
+            this.secondsTimer2.Enabled = false;
             this.secondsTimer2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.secondsTimer2.Location = new System.Drawing.Point(258, 107);
             this.secondsTimer2.Name = "secondsTimer2";
             this.secondsTimer2.Size = new System.Drawing.Size(32, 20);
             this.secondsTimer2.TabIndex = 11;
             this.secondsTimer2.Text = ":00";
+            this.secondsTimer2.Click += new System.EventHandler(this.minHourTimer2_Click);
             // 
             // minHourTimer4
             // 
             this.minHourTimer4.AutoSize = true;
+            this.minHourTimer4.Enabled = false;
             this.minHourTimer4.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.minHourTimer4.ForeColor = System.Drawing.Color.Black;
             this.minHourTimer4.Location = new System.Drawing.Point(465, 94);
@@ -408,10 +444,12 @@
             this.minHourTimer4.Size = new System.Drawing.Size(91, 36);
             this.minHourTimer4.TabIndex = 10;
             this.minHourTimer4.Text = "00:00";
+            this.minHourTimer4.Click += new System.EventHandler(this.minHourTimer4_Click);
             // 
             // PS4_2_button
             // 
             this.PS4_2_button.BackColor = System.Drawing.Color.Gainsboro;
+            this.PS4_2_button.Enabled = false;
             this.PS4_2_button.Font = new System.Drawing.Font("Palatino Linotype", 16F, System.Drawing.FontStyle.Bold);
             this.PS4_2_button.Location = new System.Drawing.Point(171, 144);
             this.PS4_2_button.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -425,6 +463,7 @@
             // minHourTimer5
             // 
             this.minHourTimer5.AutoSize = true;
+            this.minHourTimer5.Enabled = false;
             this.minHourTimer5.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.minHourTimer5.ForeColor = System.Drawing.Color.Black;
             this.minHourTimer5.Location = new System.Drawing.Point(615, 94);
@@ -432,20 +471,24 @@
             this.minHourTimer5.Size = new System.Drawing.Size(91, 36);
             this.minHourTimer5.TabIndex = 10;
             this.minHourTimer5.Text = "00:00";
+            this.minHourTimer5.Click += new System.EventHandler(this.minHourTimer5_Click);
             // 
             // secondsTimer3
             // 
             this.secondsTimer3.AutoSize = true;
+            this.secondsTimer3.Enabled = false;
             this.secondsTimer3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.secondsTimer3.Location = new System.Drawing.Point(404, 107);
             this.secondsTimer3.Name = "secondsTimer3";
             this.secondsTimer3.Size = new System.Drawing.Size(32, 20);
             this.secondsTimer3.TabIndex = 11;
             this.secondsTimer3.Text = ":00";
+            this.secondsTimer3.Click += new System.EventHandler(this.minHourTimer3_Click);
             // 
             // PS4_3_button
             // 
             this.PS4_3_button.BackColor = System.Drawing.Color.Gainsboro;
+            this.PS4_3_button.Enabled = false;
             this.PS4_3_button.Font = new System.Drawing.Font("Palatino Linotype", 16F, System.Drawing.FontStyle.Bold);
             this.PS4_3_button.Location = new System.Drawing.Point(317, 144);
             this.PS4_3_button.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -459,6 +502,7 @@
             // secondsTimer4
             // 
             this.secondsTimer4.AutoSize = true;
+            this.secondsTimer4.Enabled = false;
             this.secondsTimer4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.secondsTimer4.Location = new System.Drawing.Point(550, 107);
             this.secondsTimer4.Name = "secondsTimer4";
@@ -469,6 +513,7 @@
             // PS4_4_button
             // 
             this.PS4_4_button.BackColor = System.Drawing.Color.Gainsboro;
+            this.PS4_4_button.Enabled = false;
             this.PS4_4_button.Font = new System.Drawing.Font("Palatino Linotype", 16F, System.Drawing.FontStyle.Bold);
             this.PS4_4_button.Location = new System.Drawing.Point(463, 144);
             this.PS4_4_button.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -482,6 +527,7 @@
             // secondsTimer5
             // 
             this.secondsTimer5.AutoSize = true;
+            this.secondsTimer5.Enabled = false;
             this.secondsTimer5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.secondsTimer5.Location = new System.Drawing.Point(700, 107);
             this.secondsTimer5.Name = "secondsTimer5";
@@ -492,6 +538,7 @@
             // PS4_5_button
             // 
             this.PS4_5_button.BackColor = System.Drawing.Color.Gainsboro;
+            this.PS4_5_button.Enabled = false;
             this.PS4_5_button.Font = new System.Drawing.Font("Palatino Linotype", 16F, System.Drawing.FontStyle.Bold);
             this.PS4_5_button.Location = new System.Drawing.Point(613, 144);
             this.PS4_5_button.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -506,6 +553,7 @@
             // 
             this.comboBox1.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
             this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox1.Enabled = false;
             this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox1.Items.AddRange(new object[] {
             "1or2 controler(s)",
@@ -520,6 +568,7 @@
             // 
             this.comboBox2.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
             this.comboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox2.Enabled = false;
             this.comboBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox2.Items.AddRange(new object[] {
             "1or2 controler(s)",
@@ -534,6 +583,7 @@
             // 
             this.comboBox3.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
             this.comboBox3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox3.Enabled = false;
             this.comboBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox3.Items.AddRange(new object[] {
             "1or2 controler(s)",
@@ -548,6 +598,7 @@
             // 
             this.comboBox4.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
             this.comboBox4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox4.Enabled = false;
             this.comboBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox4.Items.AddRange(new object[] {
             "1or2 controler(s)",
@@ -562,6 +613,7 @@
             // 
             this.comboBox5.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
             this.comboBox5.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox5.Enabled = false;
             this.comboBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox5.Items.AddRange(new object[] {
             "1or2 controler(s)",

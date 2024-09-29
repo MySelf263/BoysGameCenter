@@ -84,17 +84,17 @@ namespace BoysGameCenter
                 behindFHour = " ", behindFMinute = " : ", behindFSecond = " : " ,
                 additionalController = "" ;
 
-            if (finalHour < 10) { behindHour += "0"; }
-            if (finalMinute < 10) { behindMinute += "0"; }
-            if (finalSecond < 10) { behindSecond += "0"; }
+            if (finalHour < 10 && finalHour > 0) { behindHour += "0"; }
+            if (finalMinute < 10 && finalMinute > 0) { behindMinute += "0"; }
+            if (finalSecond < 10 && finalSecond > 0) { behindSecond += "0"; }
 
-            if (startHour < 10) { behindSHour += "0"; }
-            if (startMinute < 10) { behindSMinute += "0"; }
-            if (startSecond < 10) { behindSSecond += "0"; }
+            if (startHour < 10 && startHour > 0) { behindSHour += "0"; }
+            if (startMinute < 10 && startMinute > 0) { behindSMinute += "0"; }
+            if (startSecond < 10 && startSecond > 0) { behindSSecond += "0"; }
 
-            if (finishHour < 10) { behindFHour += "0"; }
-            if (finishMinute < 10) { behindFMinute += "0"; }
-            if (finishSecond < 10) { behindFSecond += "0"; }
+            if (finishHour < 10 && finishHour > 0) { behindFHour += "0"; }
+            if (finishMinute < 10 && finishMinute > 0) { behindFMinute += "0"; }
+            if (finishSecond < 10 && finishSecond > 0) { behindFSecond += "0"; }
 
             switch (AC[0])
             {
