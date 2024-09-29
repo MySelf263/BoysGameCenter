@@ -20,7 +20,7 @@ namespace BoysGameCenter
             InitializeComponent();
             settingForm.ShowDialog();
             path = settingForm.path;
-            File.WriteAllText(path + fileName, "Shop Opened at "+DateTime.Now.Hour.ToString() + ":" + DateTime.Now.Minute.ToString()+"\n");
+            File.WriteAllText(path + fileName, "Shop Opened at " + DateTime.Now.Hour.ToString() + ":" + DateTime.Now.Minute.ToString() + "\n");
             comboBox1.SelectedIndex = 0;
             comboBox2.SelectedIndex = 0;
             comboBox3.SelectedIndex = 0;
@@ -31,156 +31,9 @@ namespace BoysGameCenter
             comboBox8.SelectedIndex = 0;
             comboBox9.SelectedIndex = 0;
             comboBox10.SelectedIndex = 0;
-            switch (settingForm.PS4_number())
-            { 
-                case (1):
-                    minHourTimer1.Enabled = true;
-                    secondsTimer1.Enabled = true;
-                    PS4_1_button.Enabled = true;
-                    comboBox1.Enabled = true;
-                    break;
-                case (2):
-                    minHourTimer1.Enabled = true;
-                    secondsTimer1.Enabled = true;
-                    PS4_1_button.Enabled = true;
-                    comboBox1.Enabled = true;
-                    minHourTimer2.Enabled=true;
-                    secondsTimer2.Enabled=true;
-                    PS4_2_button.Enabled = true;
-                    comboBox2.Enabled = true;
-                    break;
-                case (3):
-                    minHourTimer1.Enabled = true;
-                    secondsTimer1.Enabled = true;
-                    PS4_1_button.Enabled = true;
-                    comboBox1.Enabled = true;
-                    minHourTimer2.Enabled = true;
-                    secondsTimer2.Enabled = true;
-                    PS4_2_button.Enabled = true;
-                    comboBox2.Enabled = true;
-                    minHourTimer3.Enabled=true;
-                    secondsTimer3.Enabled=true;
-                    PS4_3_button.Enabled = true;
-                    comboBox3.Enabled = true;
-                    break;
-                case (4):
-                    minHourTimer1.Enabled = true;
-                    secondsTimer1.Enabled = true;
-                    PS4_1_button.Enabled = true;
-                    comboBox1.Enabled = true;
-                    minHourTimer2.Enabled = true;
-                    secondsTimer2.Enabled = true;
-                    PS4_2_button.Enabled = true;
-                    comboBox2.Enabled = true;
-                    minHourTimer3.Enabled = true;
-                    secondsTimer3.Enabled = true;
-                    PS4_3_button.Enabled = true;
-                    comboBox3.Enabled = true;
-                    minHourTimer4.Enabled=true;
-                    secondsTimer4.Enabled=true;
-                    PS4_4_button.Enabled = true;
-                    comboBox4.Enabled = true;
-                    break;
-                case (5):
-                    minHourTimer1.Enabled = true;
-                    secondsTimer1.Enabled = true;
-                    PS4_1_button.Enabled = true;
-                    comboBox1.Enabled = true;
-                    minHourTimer2.Enabled = true;
-                    secondsTimer2.Enabled = true;
-                    PS4_2_button.Enabled = true;
-                    comboBox2.Enabled = true;
-                    minHourTimer3.Enabled = true;
-                    secondsTimer3.Enabled = true;
-                    PS4_3_button.Enabled = true;
-                    comboBox3.Enabled = true;
-                    minHourTimer4.Enabled = true;
-                    secondsTimer4.Enabled = true;
-                    PS4_4_button.Enabled = true;
-                    comboBox4.Enabled = true;
-                    minHourTimer5.Enabled=true;
-                    secondsTimer5.Enabled=true;
-                    PS4_5_button.Enabled = true;
-                    comboBox5.Enabled = true;
-                    break;
-            }
-
-            switch (settingForm.PS5_number())
-            {
-                case (1):
-                    minHourTimer6.Enabled = true;
-                    secondsTimer6.Enabled = true;
-                    PS5_1_button.Enabled = true;
-                    comboBox6.Enabled = true;
-                    break;
-                case (2):
-                    minHourTimer6.Enabled = true;
-                    secondsTimer6.Enabled = true;
-                    PS5_1_button.Enabled = true;
-                    comboBox6.Enabled = true;
-                    minHourTimer7.Enabled = true;
-                    secondsTimer7.Enabled = true;
-                    PS5_2_button.Enabled = true;
-                    comboBox7.Enabled = true;
-                    break;
-                case (3):
-                    minHourTimer6.Enabled = true;
-                    secondsTimer6.Enabled = true;
-                    PS5_1_button.Enabled = true;
-                    comboBox6.Enabled = true;
-                    minHourTimer7.Enabled = true;
-                    secondsTimer7.Enabled = true;
-                    PS5_2_button.Enabled = true;
-                    comboBox7.Enabled = true;
-                    minHourTimer8.Enabled = true;
-                    secondsTimer8.Enabled = true;
-                    PS5_3_button.Enabled = true;
-                    comboBox8.Enabled = true;
-                    break;
-                case (4):
-                    minHourTimer6.Enabled = true;
-                    secondsTimer6.Enabled = true;
-                    PS5_1_button.Enabled = true;
-                    comboBox6.Enabled = true;
-                    minHourTimer7.Enabled = true;
-                    secondsTimer7.Enabled = true;
-                    PS5_2_button.Enabled = true;
-                    comboBox7.Enabled = true;
-                    minHourTimer8.Enabled = true;
-                    secondsTimer8.Enabled = true;
-                    PS5_3_button.Enabled = true;
-                    comboBox8.Enabled = true;
-                    minHourTimer9.Enabled = true;
-                    secondsTimer9.Enabled = true;
-                    PS5_4_button.Enabled = true;
-                    comboBox9.Enabled = true;
-                    break;
-                case (5):
-                    minHourTimer6.Enabled = true;
-                    secondsTimer6.Enabled = true;
-                    PS5_1_button.Enabled = true;
-                    comboBox6.Enabled = true;
-                    minHourTimer7.Enabled = true;
-                    secondsTimer7.Enabled = true;
-                    PS5_2_button.Enabled = true;
-                    comboBox7.Enabled = true;
-                    minHourTimer8.Enabled = true;
-                    secondsTimer8.Enabled = true;
-                    PS5_3_button.Enabled = true;
-                    comboBox8.Enabled = true;
-                    minHourTimer9.Enabled = true;
-                    secondsTimer9.Enabled = true;
-                    PS5_4_button.Enabled = true;
-                    comboBox9.Enabled = true;
-                    minHourTimer10.Enabled = true;
-                    secondsTimer10.Enabled = true;
-                    PS5_5_button.Enabled = true;
-                    comboBox10.Enabled = true;
-                    break;
-            }
-
+            this.deviceNumberSetter();
         }
-       
+
         SettingForm settingForm = new SettingForm();
         Console ps4_1 = new Console();
         Console ps4_2 = new Console();
@@ -192,8 +45,8 @@ namespace BoysGameCenter
         Console ps5_3 = new Console();
         Console ps5_4 = new Console();
         Console ps5_5 = new Console();
-        
-        public string fileName ="\\"+ DateTime.Now.ToShortDateString().Replace("/", ".") + ".text";
+
+        public string fileName = "\\" + DateTime.Now.ToShortDateString().Replace("/", ".") + ".text";
         private string path;
         private int totalHour, totalMinute, totalSecond;
         private float totalCost;
@@ -205,8 +58,8 @@ namespace BoysGameCenter
             if (ps4_1.enabledGetter())
             {
                 atention = true;
-                
-                
+
+
                 if (ps4_1.devTimer[0] > 59 || ps4_1.devTimer[0] == 0 && ps4_1.devTimer[1] < 0)
                 {
                     if (ps4_1.devTimer[1] >= 0)
@@ -673,9 +526,9 @@ namespace BoysGameCenter
                 minHourTimer10.Text = behindHour + ps5_5.devTimer[2] + behindMinute + ps5_5.devTimer[1];
                 secondsTimer10.Text = behindSecond + ps5_5.devTimer[0];
             }
-            if (!ps4_1.enabledGetter() && !ps4_2.enabledGetter() && !ps4_3.enabledGetter() && !ps4_4.enabledGetter() && !ps4_5.enabledGetter() 
+            if (!ps4_1.enabledGetter() && !ps4_2.enabledGetter() && !ps4_3.enabledGetter() && !ps4_4.enabledGetter() && !ps4_5.enabledGetter()
                 &&
-                !ps5_1.enabledGetter() && !ps5_2.enabledGetter() && !ps5_3.enabledGetter() && !ps5_4.enabledGetter() && !ps5_5.enabledGetter()) 
+                !ps5_1.enabledGetter() && !ps5_2.enabledGetter() && !ps5_3.enabledGetter() && !ps5_4.enabledGetter() && !ps5_5.enabledGetter())
             { atention = false; }
         }
 
@@ -691,7 +544,7 @@ namespace BoysGameCenter
             else
             {
                 ps4_1.ACNumberSetter((byte)comboBox1.SelectedIndex);
-                ps4_1.finish(path , fileName);
+                ps4_1.finish(path, fileName);
                 PS4_1_button.BackColor = Color.Gainsboro;
                 minHourTimer1.Text = "00:00";
                 secondsTimer1.Text = ":00";
@@ -935,10 +788,10 @@ namespace BoysGameCenter
         {
             if (!atention)
             {
-                
+
 
                 File.AppendAllText(path + fileName, "\nShop Closed at " + DateTime.Now.Hour.ToString() + ":" + DateTime.Now.Minute.ToString() + "\n" +
-                    "total time : " + totalHour + ":" + totalMinute + ":" +totalSecond +"\ntotal cost :"+totalCost+"\n" );
+                    "total time : " + totalHour + ":" + totalMinute + ":" + totalSecond + "\ntotal cost :" + totalCost + "\n");
 
                 this.Close();
             }
@@ -948,6 +801,14 @@ namespace BoysGameCenter
         private void Setting_button_Click(object sender, EventArgs e)
         {
             settingForm.ShowDialog();
+            if (settingForm.path != this.path)
+            {
+                string tempText = File.ReadAllText(path+fileName);
+                File.Delete(path+fileName);
+                this.path = settingForm.path;
+                File.WriteAllText(path+fileName, tempText);
+            }
+            this.deviceNumberSetter();
         }
 
         private void minHourTimer1_Click(object sender, EventArgs e)
@@ -1010,5 +871,156 @@ namespace BoysGameCenter
             auxiliaryMenu.ShowDialog();
         }
 
+        private void deviceNumberSetter()
+        {
+
+            switch (settingForm.PS4_number())
+            {
+                case (1):
+                    minHourTimer1.Enabled = true;
+                    secondsTimer1.Enabled = true;
+                    PS4_1_button.Enabled = true;
+                    comboBox1.Enabled = true;
+                    break;
+                case (2):
+                    minHourTimer1.Enabled = true;
+                    secondsTimer1.Enabled = true;
+                    PS4_1_button.Enabled = true;
+                    comboBox1.Enabled = true;
+                    minHourTimer2.Enabled = true;
+                    secondsTimer2.Enabled = true;
+                    PS4_2_button.Enabled = true;
+                    comboBox2.Enabled = true;
+                    break;
+                case (3):
+                    minHourTimer1.Enabled = true;
+                    secondsTimer1.Enabled = true;
+                    PS4_1_button.Enabled = true;
+                    comboBox1.Enabled = true;
+                    minHourTimer2.Enabled = true;
+                    secondsTimer2.Enabled = true;
+                    PS4_2_button.Enabled = true;
+                    comboBox2.Enabled = true;
+                    minHourTimer3.Enabled = true;
+                    secondsTimer3.Enabled = true;
+                    PS4_3_button.Enabled = true;
+                    comboBox3.Enabled = true;
+                    break;
+                case (4):
+                    minHourTimer1.Enabled = true;
+                    secondsTimer1.Enabled = true;
+                    PS4_1_button.Enabled = true;
+                    comboBox1.Enabled = true;
+                    minHourTimer2.Enabled = true;
+                    secondsTimer2.Enabled = true;
+                    PS4_2_button.Enabled = true;
+                    comboBox2.Enabled = true;
+                    minHourTimer3.Enabled = true;
+                    secondsTimer3.Enabled = true;
+                    PS4_3_button.Enabled = true;
+                    comboBox3.Enabled = true;
+                    minHourTimer4.Enabled = true;
+                    secondsTimer4.Enabled = true;
+                    PS4_4_button.Enabled = true;
+                    comboBox4.Enabled = true;
+                    break;
+                case (5):
+                    minHourTimer1.Enabled = true;
+                    secondsTimer1.Enabled = true;
+                    PS4_1_button.Enabled = true;
+                    comboBox1.Enabled = true;
+                    minHourTimer2.Enabled = true;
+                    secondsTimer2.Enabled = true;
+                    PS4_2_button.Enabled = true;
+                    comboBox2.Enabled = true;
+                    minHourTimer3.Enabled = true;
+                    secondsTimer3.Enabled = true;
+                    PS4_3_button.Enabled = true;
+                    comboBox3.Enabled = true;
+                    minHourTimer4.Enabled = true;
+                    secondsTimer4.Enabled = true;
+                    PS4_4_button.Enabled = true;
+                    comboBox4.Enabled = true;
+                    minHourTimer5.Enabled = true;
+                    secondsTimer5.Enabled = true;
+                    PS4_5_button.Enabled = true;
+                    comboBox5.Enabled = true;
+                    break;
+            }
+
+            switch (settingForm.PS5_number())
+            {
+                case (1):
+                    minHourTimer6.Enabled = true;
+                    secondsTimer6.Enabled = true;
+                    PS5_1_button.Enabled = true;
+                    comboBox6.Enabled = true;
+                    break;
+                case (2):
+                    minHourTimer6.Enabled = true;
+                    secondsTimer6.Enabled = true;
+                    PS5_1_button.Enabled = true;
+                    comboBox6.Enabled = true;
+                    minHourTimer7.Enabled = true;
+                    secondsTimer7.Enabled = true;
+                    PS5_2_button.Enabled = true;
+                    comboBox7.Enabled = true;
+                    break;
+                case (3):
+                    minHourTimer6.Enabled = true;
+                    secondsTimer6.Enabled = true;
+                    PS5_1_button.Enabled = true;
+                    comboBox6.Enabled = true;
+                    minHourTimer7.Enabled = true;
+                    secondsTimer7.Enabled = true;
+                    PS5_2_button.Enabled = true;
+                    comboBox7.Enabled = true;
+                    minHourTimer8.Enabled = true;
+                    secondsTimer8.Enabled = true;
+                    PS5_3_button.Enabled = true;
+                    comboBox8.Enabled = true;
+                    break;
+                case (4):
+                    minHourTimer6.Enabled = true;
+                    secondsTimer6.Enabled = true;
+                    PS5_1_button.Enabled = true;
+                    comboBox6.Enabled = true;
+                    minHourTimer7.Enabled = true;
+                    secondsTimer7.Enabled = true;
+                    PS5_2_button.Enabled = true;
+                    comboBox7.Enabled = true;
+                    minHourTimer8.Enabled = true;
+                    secondsTimer8.Enabled = true;
+                    PS5_3_button.Enabled = true;
+                    comboBox8.Enabled = true;
+                    minHourTimer9.Enabled = true;
+                    secondsTimer9.Enabled = true;
+                    PS5_4_button.Enabled = true;
+                    comboBox9.Enabled = true;
+                    break;
+                case (5):
+                    minHourTimer6.Enabled = true;
+                    secondsTimer6.Enabled = true;
+                    PS5_1_button.Enabled = true;
+                    comboBox6.Enabled = true;
+                    minHourTimer7.Enabled = true;
+                    secondsTimer7.Enabled = true;
+                    PS5_2_button.Enabled = true;
+                    comboBox7.Enabled = true;
+                    minHourTimer8.Enabled = true;
+                    secondsTimer8.Enabled = true;
+                    PS5_3_button.Enabled = true;
+                    comboBox8.Enabled = true;
+                    minHourTimer9.Enabled = true;
+                    secondsTimer9.Enabled = true;
+                    PS5_4_button.Enabled = true;
+                    comboBox9.Enabled = true;
+                    minHourTimer10.Enabled = true;
+                    secondsTimer10.Enabled = true;
+                    PS5_5_button.Enabled = true;
+                    comboBox10.Enabled = true;
+                    break;
+            }
+        }
     }
 }
