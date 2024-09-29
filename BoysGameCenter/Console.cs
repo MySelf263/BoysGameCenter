@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -15,13 +16,10 @@ namespace BoysGameCenter
         private byte finalSecond, finalMinute, finalHour;
         private byte price = 30;
         private byte[] AC = { 0, 15 }; // AC = additionalController
-        private float cost;
-        private float totalCost;
-        private int[] totalTime = { 0, 0, 0 };
+        private float cost; 
         private bool enabled = false;
         private byte increaseTime = 0;
         public sbyte[] devTimer = { 0, 0, 0 };
-        //FinalText finalText = new FinalText();
         public void start()
         {
             startHour = (byte)DateTime.Now.TimeOfDay.Hours;
@@ -39,7 +37,7 @@ namespace BoysGameCenter
         public void ACPriceSetter(byte price) { this.AC[1] = price; }// AC = additionalController
         
         
-        public void finish()
+        public void finish(string path , string fileName)
         {
             finishHour = (byte)DateTime.Now.TimeOfDay.Hours;
             finishMinute = (byte)DateTime.Now.TimeOfDay.Minutes;
@@ -73,12 +71,6 @@ namespace BoysGameCenter
             //-------------------------------------------------------------------------------------//
 
 
-            totalCost += cost;
-
-            totalTime[0] += finalHour;
-            totalTime[1] += finalMinute;
-            totalTime[2] += finalSecond;
-
 
             this.enabled = false;
 
@@ -88,7 +80,7 @@ namespace BoysGameCenter
             }
 
             string behindHour = " ", behindMinute = " : ", behindSecond = " : " ,
-                behindSHour = " ", behindSMinute = " : ", behindSSecond = " : " ,
+                behindSHour = "", behindSMinute = " : ", behindSSecond = " : " ,
                 behindFHour = " ", behindFMinute = " : ", behindFSecond = " : " ,
                 additionalController = "" ;
 
@@ -123,6 +115,11 @@ namespace BoysGameCenter
                 "Time :" + behindHour + finalHour.ToString() + behindMinute + finalMinute + behindSecond + finalSecond + "\n" +
                 additionalController + "\nCost : " + cost);
 
+            File.AppendAllText(path+fileName ,"\n"+ behindSHour + startHour + behindSMinute + startMinute + behindSSecond + startSecond +
+                "  ~  " + behindFHour + finishHour + behindFMinute + finishMinute + behindFSecond + finishSecond + "\n" +
+                "Time :" + behindHour + finalHour.ToString() + behindMinute + finalMinute + behindSecond + finalSecond + "\n" +
+                additionalController + "\nCost : " + cost+"\n");
+
         }
         public bool enabledGetter()
         {
@@ -133,33 +130,25 @@ namespace BoysGameCenter
         {
             this.increaseTime = increseTime;
         }
-        //public string showTime()
-        //{
-        //    nowHour = (byte)DateTime.Now.TimeOfDay.Hours;
-        //    nowMinute = (byte)DateTime.Now.TimeOfDay.Minutes;
-        //    nowSecond = (byte)DateTime.Now.TimeOfDay.Seconds;
-        //    if (nowMinute < startMinute)
-        //    {
-        //        nowMinute += 60;
-        //        nowHour -= 1;
-        //    }
-        //    byte hourTimer = (byte)(nowHour - startHour);
-        //    if (nowSecond < startSecond)
-        //    {
-        //        nowMinute -= 1;
-        //        nowSecond += 60;
-        //    }
-        //    byte minuteTimer = (byte)(nowMinute - startMinute);
-        //    byte secondTimer = (byte)(nowSecond - startSecond);
 
-        //    return (hourTimer + ":" + minuteTimer + ":" + secondTimer);
-        //}
-        public void ending()
+        public int totalHourSetter() 
         {
-            //finalText.saveText("total time : " + totalTime[0] + ":" + totalTime[1] + ":" + totalTime[2] + "\n"
-            //    + "total cost = " + totalCost);
+            return (finalHour);
         }
 
-        public Console() { }
+        public int totalMinuteSetter()
+        {
+            return (finalMinute);
+        }
+
+        public int totalSecondSetter()
+        {
+            return (finalSecond);
+        }
+
+        public float totalCostSetter() 
+        {
+        return (cost);
+        }
     }
 }
